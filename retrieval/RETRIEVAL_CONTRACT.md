@@ -1,6 +1,6 @@
 # Person A — Retrieval Contract
 
-Everything Person A provides lives in `retrieval.py`. Import from it directly:
+Everything Person A provides is implemented in `retrieval/retrieval.py` and exposed through the `retrieval` package. Import from it directly:
 
 ```python
 from retrieval import (
@@ -23,8 +23,8 @@ Person C.
 
 The module expects two things to exist in the project folder:
 
-- `index_v1/` — the Chroma vector index (built by `build_index.py`)
-- `cleaned/chunks_v1.jsonl` — the cleaned chunks (built by `clean_corpus.py`)
+- `index_v1/` — the Chroma vector index (built by `retrieval/build_index.py`)
+- `cleaned/chunks_v1.jsonl` — the cleaned chunks (built by `retrieval/clean_corpus.py`)
 
 Override paths with env vars if needed:
 `BANGLA_QA_INDEX` (default `index_v1`) and `BANGLA_QA_CHUNKS`
