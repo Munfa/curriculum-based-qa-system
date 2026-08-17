@@ -1,0 +1,917 @@
+{
+  "english_and_english_grammar": {
+    "description": "Do not force English or English grammar into the MCQ or CQ structure. Preserve the actual question format found in the curriculum and textbook examples.",
+    "subject": "English_grammar",
+    "chapters": [
+      {
+        "chapter_no": 1,
+        "chapter_title": "The Noun",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "noun_classification",
+            "difficulty": "easy",
+            "instruction": "Identify the kind of noun in the sentence.",
+            "question": "Dhaka is the capital of Bangladesh.",
+            "answer": {
+              "Dhaka": "proper noun",
+              "capital": "common noun",
+              "Bangladesh": "proper noun"
+            }
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "plural_form",
+            "difficulty": "easy",
+            "instruction": "Write the plural form of the noun.",
+            "question": "child",
+            "answer": "children"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "gender_identification",
+            "difficulty": "easy",
+            "instruction": "Identify the gender of the noun.",
+            "question": "teacher",
+            "answer": "common gender"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "possessive_form",
+            "difficulty": "medium",
+            "instruction": "Rewrite the phrase using the possessive form.",
+            "question": "the books belonging to the students",
+            "answer": "the students' books"
+          }
+        ]
+      },
+      {
+        "chapter_no": 2,
+        "chapter_title": "Pronouns and Possessives",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "pronoun_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with the correct subject or object pronoun.",
+            "question": "Rina is my friend. I often visit ___.",
+            "answer": "her"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "possessive_adjective_or_pronoun",
+            "difficulty": "medium",
+            "instruction": "Fill in the blank with the correct possessive form.",
+            "question": "This is my bag. That one is ___.",
+            "answer": "yours"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "reflexive_pronoun",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence with a suitable reflexive pronoun.",
+            "question": "We organized the programme by ___.",
+            "answer": "ourselves"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "pronoun_identification",
+            "difficulty": "easy",
+            "instruction": "Identify the type of the highlighted pronoun.",
+            "question": "She completed the work herself.",
+            "answer": "reflexive pronoun"
+          }
+        ]
+      },
+      {
+        "chapter_no": 3,
+        "chapter_title": "Adjectives",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "degree_of_adjective",
+            "difficulty": "easy",
+            "instruction": "Write the comparative form of the adjective.",
+            "question": "large",
+            "answer": "larger"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "comparison_completion",
+            "difficulty": "medium",
+            "instruction": "Complete the comparison with the correct form of the adjective.",
+            "question": "January is ___ than November in Bangladesh. (cold)",
+            "answer": "colder"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "superlative_form",
+            "difficulty": "easy",
+            "instruction": "Write the superlative form.",
+            "question": "good",
+            "answer": "best"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "sentence_comparison",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence using the correct degree of comparison.",
+            "question": "My house is small, but my uncle's house is ___.",
+            "answer": "smaller"
+          }
+        ]
+      },
+      {
+        "chapter_no": 4,
+        "chapter_title": "Verbs and Tenses",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "tense_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Use the correct form of the verb.",
+            "question": "Karim usually ___ his children to the park on weekends. (take)",
+            "answer": "takes"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "present_continuous",
+            "difficulty": "easy",
+            "instruction": "Complete the sentence using the present continuous form.",
+            "question": "Why ___ that man ___ in the middle of the road? (stand)",
+            "answer": "is, standing"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "present_perfect",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence using the present perfect form.",
+            "question": "I ___ already ___ the letter. (write)",
+            "answer": "have, written"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "tense_identification",
+            "difficulty": "medium",
+            "instruction": "Identify the tense used in the sentence.",
+            "question": "She has been studying for two hours.",
+            "answer": "present perfect continuous"
+          }
+        ]
+      },
+      {
+        "chapter_no": 5,
+        "chapter_title": "Verbs: Modals",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "modal_ability",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with a suitable modal.",
+            "question": "I ___ swim very well.",
+            "answer": "can"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "modal_permission",
+            "difficulty": "easy",
+            "instruction": "Complete the request with a suitable modal.",
+            "question": "___ I come in, sir?",
+            "answer": "May"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "modal_advice",
+            "difficulty": "medium",
+            "instruction": "Fill in the blank with a suitable modal.",
+            "question": "You look ill. You ___ see a doctor.",
+            "answer": "should"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "modal_obligation",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence with an appropriate modal expression.",
+            "question": "Students ___ obey the rules of the examination hall.",
+            "answer": "must"
+          }
+        ]
+      },
+      {
+        "chapter_no": 6,
+        "chapter_title": "Kinds of Verbs",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "verb_classification",
+            "difficulty": "medium",
+            "instruction": "Identify whether the verb is transitive, intransitive, or linking.",
+            "question": "The baby slept peacefully.",
+            "answer": "intransitive"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "verb_classification",
+            "difficulty": "medium",
+            "instruction": "Identify whether the verb is transitive, intransitive, or linking.",
+            "question": "She opened the door.",
+            "answer": "transitive"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "infinitive_or_ing_form",
+            "difficulty": "medium",
+            "instruction": "Use the correct infinitive or ing form of the verb.",
+            "question": "He decided ___ harder for the examination. (study)",
+            "answer": "to study"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "infinitive_or_ing_form",
+            "difficulty": "medium",
+            "instruction": "Use the correct infinitive or ing form of the verb.",
+            "question": "She enjoys ___ novels. (read)",
+            "answer": "reading"
+          }
+        ]
+      },
+      {
+        "chapter_no": 7,
+        "chapter_title": "The Adverb",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "adverb_identification",
+            "difficulty": "easy",
+            "instruction": "Identify the adverb in the sentence.",
+            "question": "The boy ran quickly.",
+            "answer": "quickly"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "adverb_type",
+            "difficulty": "medium",
+            "instruction": "Identify the kind of adverb.",
+            "question": "He will come tomorrow.",
+            "answer": "adverb of time"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "adverbial_phrase_identification",
+            "difficulty": "medium",
+            "instruction": "Identify the adverbial phrase.",
+            "question": "She spoke with great confidence.",
+            "answer": "with great confidence"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "adverb_position",
+            "difficulty": "medium",
+            "instruction": "Place the adverb in a natural position in the sentence.",
+            "question": "He goes to school. (usually)",
+            "answer": "He usually goes to school."
+          }
+        ]
+      },
+      {
+        "chapter_no": 8,
+        "chapter_title": "The Preposition",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "preposition_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with a suitable preposition.",
+            "question": "We cannot live ___ water.",
+            "answer": "without"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "preposition_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with a suitable preposition.",
+            "question": "He called me ___ nine o'clock.",
+            "answer": "at"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "complex_preposition",
+            "difficulty": "medium",
+            "instruction": "Fill in the blank with a suitable complex preposition.",
+            "question": "He could not attend the class ___ his illness.",
+            "answer": "because of"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "preposition_question_completion",
+            "difficulty": "medium",
+            "instruction": "Complete the question with the correct preposition.",
+            "question": "Who are you writing this letter ___?",
+            "answer": "to"
+          }
+        ]
+      },
+      {
+        "chapter_no": 9,
+        "chapter_title": "Sentences",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "clause_identification",
+            "difficulty": "medium",
+            "instruction": "Identify the subordinate clause.",
+            "question": "I know that he is honest.",
+            "answer": "that he is honest"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "wh_question",
+            "difficulty": "medium",
+            "instruction": "Make a Wh question for the underlined information.",
+            "question": "Rahmat lives in a village.",
+            "answer": "Where does Rahmat live?"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "tag_question",
+            "difficulty": "medium",
+            "instruction": "Add a suitable tag question.",
+            "question": "You know him, ___?",
+            "answer": "don't you?"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "linking_word",
+            "difficulty": "medium",
+            "instruction": "Join the sentences with a suitable linker.",
+            "question": "He was ill. He attended the class.",
+            "answer": "Although he was ill, he attended the class."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "short_answer",
+            "difficulty": "easy",
+            "instruction": "Give a suitable short answer.",
+            "question": "Would you like to go for a walk?",
+            "answer": "Yes, I'd love to."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "punctuation_and_capitalization",
+            "difficulty": "medium",
+            "instruction": "Rewrite the sentence using correct punctuation and capital letters.",
+            "question": "where are you going asked rafi",
+            "answer": "Where are you going? asked Rafi."
+          }
+        ]
+      },
+      {
+        "chapter_no": 10,
+        "chapter_title": "Introductory it and there",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "introductory_there_rewrite",
+            "difficulty": "medium",
+            "instruction": "Rewrite the sentence using introductory there.",
+            "question": "A red rose is in the vase.",
+            "answer": "There is a red rose in the vase."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "introductory_it_rewrite",
+            "difficulty": "medium",
+            "instruction": "Rewrite the sentence using introductory it.",
+            "question": "Saying sorry when you are wrong is polite.",
+            "answer": "It is polite to say sorry when you are wrong."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "it_or_there_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with it or there.",
+            "question": "___ are many leaves on the ground.",
+            "answer": "There"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "it_or_there_fill_in_the_blank",
+            "difficulty": "easy",
+            "instruction": "Fill in the blank with it or there.",
+            "question": "___ is difficult to solve this problem.",
+            "answer": "It"
+          }
+        ]
+      },
+      {
+        "chapter_no": 11,
+        "chapter_title": "Conditionals",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "first_conditional_completion",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence using the first conditional.",
+            "question": "If it rains, we ___ at home. (stay)",
+            "answer": "will stay"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "first_conditional_with_modal",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence with a suitable modal in a first conditional.",
+            "question": "If you leave now, you ___ catch the bus.",
+            "answer": "may"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "second_conditional_completion",
+            "difficulty": "medium",
+            "instruction": "Complete the sentence using the second conditional.",
+            "question": "If I were rich, I ___ a school for poor children. (build)",
+            "answer": "would build"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "conditional_sentence_creation",
+            "difficulty": "hard",
+            "instruction": "Make a second conditional sentence from the situation.",
+            "question": "You do not have enough money, so you cannot buy the computer.",
+            "answer": "If I had enough money, I would buy the computer."
+          }
+        ]
+      },
+      {
+        "chapter_no": 12,
+        "chapter_title": "The Passive",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "active_to_passive",
+            "difficulty": "medium",
+            "instruction": "Change the sentence into passive voice.",
+            "question": "They planted many trees.",
+            "answer": "Many trees were planted by them."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "passive_fill_in_the_blank",
+            "difficulty": "medium",
+            "instruction": "Use the correct passive form of the verb.",
+            "question": "The invitation cards ___ already ___. (send)",
+            "answer": "have, been sent"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "passive_to_active",
+            "difficulty": "medium",
+            "instruction": "Change the sentence into active voice.",
+            "question": "The programme was planned by my uncle.",
+            "answer": "My uncle planned the programme."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "headline_to_passive_sentence",
+            "difficulty": "hard",
+            "instruction": "Rewrite the headline as a complete passive sentence.",
+            "question": "Ten shop owners arrested.",
+            "answer": "Ten shop owners were arrested."
+          }
+        ]
+      },
+      {
+        "chapter_no": 13,
+        "chapter_title": "Speech",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "direct_to_indirect_statement",
+            "difficulty": "medium",
+            "instruction": "Change the direct speech into indirect speech.",
+            "question": "Rina said, \"I am tired.\"",
+            "answer": "Rina said that she was tired."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "reported_yes_no_question",
+            "difficulty": "medium",
+            "instruction": "Change the question into indirect speech.",
+            "question": "He said to me, \"Are you ready?\"",
+            "answer": "He asked me if I was ready."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "reported_wh_question",
+            "difficulty": "hard",
+            "instruction": "Change the question into indirect speech.",
+            "question": "Mother said to me, \"Where are you going?\"",
+            "answer": "Mother asked me where I was going."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "grammar",
+            "format": "reported_command",
+            "difficulty": "hard",
+            "instruction": "Change the command into indirect speech.",
+            "question": "The teacher said to the students, \"Open your books.\"",
+            "answer": "The teacher told the students to open their books."
+          }
+        ]
+      },
+      {
+        "chapter_no": 14,
+        "chapter_title": "Letters",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "informal_letter",
+            "difficulty": "medium",
+            "instruction": "Write an informal letter.",
+            "question": "Write a letter to your younger sister congratulating her on her success.",
+            "answer": "Dear Rima,\nI was very happy to hear about your excellent result. Your success is the result of your hard work and sincerity. I am proud of you. Keep studying regularly and remain humble. Convey my regards to everyone at home.\nWith love,\nYour brother"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "informal_to_formal_rewrite",
+            "difficulty": "hard",
+            "instruction": "Rewrite the sentence in a more formal style.",
+            "question": "Thanks a lot for helping me out. I'll get back to you soon.",
+            "answer": "Thank you very much for your assistance. I will contact you again soon."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "formal_application",
+            "difficulty": "medium",
+            "instruction": "Write a formal application.",
+            "question": "Write an application to the Headteacher requesting permission to organize a study tour.",
+            "answer": "To\nThe Headteacher\nSubject: Prayer for permission to organize a study tour\nSir,\nWe, the students of Class Ten, respectfully request permission to organize a study tour. The tour will help us gain practical knowledge and strengthen cooperation among students. We therefore request you to kindly grant us permission.\nYours obediently,\nThe students of Class Ten"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "formal_letter_components",
+            "difficulty": "easy",
+            "instruction": "Answer the question about formal letter format.",
+            "question": "Where is the recipient's designation and address written in a formal letter?",
+            "answer": "It is written before the salutation, usually on the left side."
+          }
+        ]
+      },
+      {
+        "chapter_no": 15,
+        "chapter_title": "CV and Cover Letter",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "cv_components",
+            "difficulty": "easy",
+            "instruction": "Answer the question.",
+            "question": "Name four important sections that may appear in a CV.",
+            "answer": [
+              "personal details",
+              "career objective",
+              "educational qualifications",
+              "skills"
+            ]
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "cv_short_answer",
+            "difficulty": "medium",
+            "instruction": "Answer the question.",
+            "question": "Why is a CV important?",
+            "answer": "A CV presents a person's qualifications, skills, experience, and background in a clear form for study or employment purposes."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "cv_creation",
+            "difficulty": "hard",
+            "instruction": "Prepare a short CV using the supplied information.",
+            "question": "Name: Arif Hasan. Education: SSC and HSC completed. Skills: MS Word and MS Excel. Interest: teaching.",
+            "answer": {
+              "name": "Arif Hasan",
+              "career_objective": "To use my education and skills responsibly in a suitable position.",
+              "education": [
+                "SSC completed",
+                "HSC completed"
+              ],
+              "computer_skills": [
+                "MS Word",
+                "MS Excel"
+              ],
+              "interest": "Teaching"
+            }
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "cover_letter",
+            "difficulty": "hard",
+            "instruction": "Write a short cover letter to accompany a CV.",
+            "question": "Write a cover letter for an entry level office position.",
+            "answer": "Sir or Madam,\nI am applying for the advertised office position. My academic background, communication ability, and computer skills match the basic requirements of the post. I have attached my CV for your consideration. I would be grateful for an opportunity to discuss my suitability.\nYours faithfully,\nApplicant"
+          }
+        ]
+      },
+      {
+        "chapter_no": 16,
+        "chapter_title": "E mails",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "email_principle",
+            "difficulty": "easy",
+            "instruction": "Answer the question.",
+            "question": "Why should an e mail have a clear subject line?",
+            "answer": "A clear subject line tells the receiver the purpose of the message and helps the message get noticed."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "email_editing",
+            "difficulty": "medium",
+            "instruction": "Rewrite the sentence so that it is suitable for an effective e mail.",
+            "question": "HEY!!! I NEED THE FILE RIGHT NOW!!!",
+            "answer": "Could you please send me the file as soon as possible?"
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "formal_email",
+            "difficulty": "medium",
+            "instruction": "Write a concise formal e mail.",
+            "question": "Write an e mail to a teacher requesting information about an assignment deadline.",
+            "answer": {
+              "subject": "Question about assignment deadline",
+              "body": "Dear Sir,\nCould you please confirm the submission deadline for the assignment? I want to make sure that I submit it on time.\nThank you.\nRegards,\nStudent"
+            }
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "email_best_practice",
+            "difficulty": "easy",
+            "instruction": "State one rule for making an e mail readable.",
+            "question": "How can a writer make an e mail easier to read?",
+            "answer": "Use short sentences, clear paragraphs, simple formatting, and blank lines between paragraphs."
+          }
+        ]
+      },
+      {
+        "chapter_no": 17,
+        "chapter_title": "Short Composition: Paragraphs",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "paragraph_concept",
+            "difficulty": "easy",
+            "instruction": "Answer the question.",
+            "question": "What is a topic sentence?",
+            "answer": "A topic sentence states the main idea that a paragraph develops."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "topic_sentence_creation",
+            "difficulty": "medium",
+            "instruction": "Write a suitable topic sentence.",
+            "question": "Topic: The importance of trees",
+            "answer": "Trees are essential for human life and the environment in many ways."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "paragraph_organization",
+            "difficulty": "medium",
+            "instruction": "State the three major parts of an effective paragraph.",
+            "question": "What are the three major structural parts of a paragraph?",
+            "answer": [
+              "topic sentence",
+              "supporting body",
+              "conclusion"
+            ]
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "descriptive_paragraph",
+            "difficulty": "hard",
+            "instruction": "Write a short descriptive paragraph.",
+            "question": "Describe a busy city street.",
+            "answer": "A busy city street is crowded with people, buses, cars, and rickshaws. Shopkeepers call customers while pedestrians move quickly along the footpaths. Horns, voices, and engine sounds fill the air. Street vendors display food and small goods beside the road. Traffic police try to control the movement of vehicles. The scene is noisy and crowded, yet it shows the fast pace of city life."
+          }
+        ]
+      },
+      {
+        "chapter_no": 18,
+        "chapter_title": "Short Composition",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "composition_structure",
+            "difficulty": "easy",
+            "instruction": "Answer the question.",
+            "question": "How is a short composition similar to a paragraph?",
+            "answer": "Both develop a central idea in an organized structure with a beginning, supporting details, and an ending."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "narrative_composition",
+            "difficulty": "hard",
+            "instruction": "Write a short composition.",
+            "question": "Write a short composition on a sweet memory of your life.",
+            "answer": "One of my sweetest memories is my first school picnic. We travelled together early in the morning and spent the day playing games, sharing food, and visiting a beautiful place. Our teachers joined our activities and took many photographs. I still remember the laughter of my friends and the excitement of that day. The picnic remains special because it gave me a joyful experience with people I cared about."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "descriptive_composition",
+            "difficulty": "hard",
+            "instruction": "Write a short composition.",
+            "question": "Describe your village or home town.",
+            "answer": "My home town is a peaceful place where residential areas, schools, markets, and open spaces exist side by side. People know one another and take part in social activities. The roads become busy in the morning, but the evenings are calmer. Local markets supply daily necessities, while nearby fields and trees add natural beauty. I feel closely connected to the place because many of my childhood memories belong there."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "imaginative_composition",
+            "difficulty": "hard",
+            "instruction": "Write a short composition based on imagination.",
+            "question": "Imagine that you are an English teacher. Describe how you would teach your students.",
+            "answer": "If I were an English teacher, I would make my classes active and practical. I would encourage students to speak, read, write, and listen every day. I would use short stories, conversations, group work, and simple writing tasks. I would correct mistakes patiently and give students chances to improve. My aim would be to help them use English confidently in real situations."
+          }
+        ]
+      },
+      {
+        "chapter_no": 19,
+        "chapter_title": "Completing Stories",
+        "examples": [
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "story_from_beginning",
+            "difficulty": "hard",
+            "instruction": "Complete a story from the given beginning.",
+            "question": "It was almost midnight and Abir still had a long way to go.",
+            "answer": "It was almost midnight and Abir still had a long way to go. The road was quiet and the sky was cloudy. Suddenly he noticed an old man sitting beside the road. The man had lost his way and looked frightened. Abir decided not to leave him alone. He called a nearby shopkeeper, found the man's address, and arranged a ride for him. Abir reached home late, but he felt happy because he had helped someone in need."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "story_with_middle_line",
+            "difficulty": "hard",
+            "instruction": "Write a story that naturally includes the supplied line.",
+            "question": "Use this line in the middle of the story: She looked at the picture again. Her hands were now shaking.",
+            "answer": "Mita was cleaning an old cupboard when she found a sealed envelope. Inside it was a faded photograph of a child standing beside her grandfather. She looked at the picture again. Her hands were now shaking. On the back she found a date and a name she had never heard before. She asked her grandmother about it and discovered a forgotten part of the family's history. The photograph brought back memories that had remained hidden for years."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "story_from_ending",
+            "difficulty": "hard",
+            "instruction": "Write a story that ends with the supplied line.",
+            "question": "End the story with: The sun was rising with its red morning glow.",
+            "answer": "A group of travellers lost their way while returning from a remote village. Their phones had no signal, and darkness covered the road. They stayed together, followed a narrow path, and finally reached a small shelter. They waited there through the cold night, sharing food and encouraging one another. At last the darkness slowly disappeared. The sun was rising with its red morning glow."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "story_planning",
+            "difficulty": "medium",
+            "instruction": "List the main elements needed before completing a story.",
+            "question": "What should a writer think about before beginning a story?",
+            "answer": [
+              "the main characters",
+              "the setting",
+              "the sequence of events",
+              "the ending or outcome"
+            ]
+          }
+        ]
+      },
+      {
+        "chapter_no": 20,
+        "chapter_title": "Writing Summaries",
+        "examples": [
+          {
+            "subject": "English",
+            "question_type": "reading_comprehension",
+            "format": "textbook_passage_question",
+            "difficulty": "medium",
+            "passage": "People read for different purposes. Some read for pleasure, some for information, and some for instructions. Different texts also require different reading speeds and strategies.",
+            "questions": [
+              {
+                "question": "Why do people read different materials in different ways?",
+                "answer": "Because the purpose and type of material determine how carefully or quickly it should be read."
+              },
+              {
+                "question": "Name two purposes of reading.",
+                "answer": "Reading for pleasure and reading for information."
+              }
+            ]
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "summary_principle",
+            "difficulty": "easy",
+            "instruction": "Answer the question.",
+            "question": "What should a summary contain?",
+            "answer": "A summary should contain the main ideas of the original text in a shorter form using complete sentences."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "summary_writing",
+            "difficulty": "medium",
+            "instruction": "Write a short summary of the passage.",
+            "passage": "A good reader changes reading speed according to purpose. Detailed material requires careful reading, while familiar or less important material may be read quickly. Skimming helps find general ideas and scanning helps locate specific information.",
+            "answer": "An effective reader adjusts reading speed to the purpose and type of text. Careful reading is used for detailed material, while skimming and scanning help readers find general or specific information quickly."
+          },
+          {
+            "subject": "English_grammar",
+            "question_type": "writing",
+            "format": "key_word_to_summary",
+            "difficulty": "medium",
+            "instruction": "Use the key ideas to write a short summary.",
+            "question": "Key ideas: reading purpose, different speeds, careful reading, skimming, scanning",
+            "answer": "Reading methods depend on purpose. Some texts need slow and careful reading, while skimming and scanning allow readers to find general ideas or specific information efficiently."
+          }
+        ]
+      }
+    ]
+  },
+  "notes_for_person_b": [
+    "Do not add class to every example.",
+    "Use subject to identify the broad pattern family.",
+    "Use question_type and format to identify the exact question structure.",
+    "Use difficulty when it is meaningful.",
+    "Preserve the actual grammar, reading, and writing structures used in the textbook.",
+    "The answer fields show what a correct response or model response can look like.",
+    "The uploaded textbook chapter files remain the factual source for generated questions and answers.",
+    "Do not convert English grammar exercises into MCQ or CQ unless the source itself uses that structure."
+  ]
+}

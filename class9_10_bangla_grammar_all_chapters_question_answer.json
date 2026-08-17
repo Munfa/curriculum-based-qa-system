@@ -1,0 +1,1338 @@
+{
+  "bangla_grammar": {
+    "description": "Do not force Bangla grammar into the common MCQ or CQ structure. Preserve the actual grammar exercise and question format found in the uploaded textbook chapters.",
+    "subject": "Bangla_grammar",
+    "chapters": [
+      {
+        "chapter_no": 1,
+        "chapter_title": "ভাষা ও বাংলা ভাষা",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bhasha_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "মনের ভাব প্রকাশক বাক্যের সমষ্টিকে কী বলে?",
+            "options": [
+              "ভাষা",
+              "বর্ণ",
+              "ধ্বনি",
+              "শব্দ"
+            ],
+            "answer": "ভাষা"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bhasha_upadan",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দের গুচ্ছ দিয়ে কী গঠিত হয়?",
+            "options": [
+              "বর্ণ",
+              "বাক্য",
+              "ধ্বনি",
+              "লিপি"
+            ],
+            "answer": "বাক্য"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bhasha_indriyo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বর্ণের সঙ্গে কোন ইন্দ্রিয়ের সরাসরি সম্পর্ক আছে?",
+            "options": [
+              "চোখ",
+              "কান",
+              "নাক",
+              "জিভ"
+            ],
+            "answer": "চোখ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bangla_bhasha_byabohar",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাংলাদেশের জীবনযাত্রার প্রায় সব ক্ষেত্রে কোন ভাষার ব্যবহার সরকারিভাবে বাধ্যতামূলক?",
+            "options": [
+              "বাংলা",
+              "ইংরেজি",
+              "আরবি",
+              "হিন্দি"
+            ],
+            "answer": "বাংলা"
+          }
+        ]
+      },
+      {
+        "chapter_no": 2,
+        "chapter_title": "বাংলা ব্যাকরণ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "byakoron_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ভাষার স্বরূপ ও প্রকৃতি নিয়ে আলোচনা করে কোন শাস্ত্র?",
+            "options": [
+              "ব্যাকরণ",
+              "অভিধান",
+              "সাহিত্য",
+              "ছন্দ"
+            ],
+            "answer": "ব্যাকরণ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "byakoron_itihas",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "প্রথম বাংলা ব্যাকরণ কত খ্রিস্টাব্দে প্রকাশিত হয়?",
+            "options": [
+              "১৫৫৩",
+              "১৭৪৩",
+              "১৭৭৮",
+              "১৯৪৮"
+            ],
+            "answer": "১৭৪৩"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "byakoron_itihas",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ইংরেজি ভাষায় লেখা প্রথম পূর্ণাঙ্গ বাংলা ব্যাকরণের রচয়িতা কে?",
+            "options": [
+              "উইলিয়াম কেরি",
+              "রামমোহন রায়",
+              "নাথানিয়েল ব্রাসি হ্যালহেড",
+              "হরপ্রসাদ শাস্ত্রী"
+            ],
+            "answer": "নাথানিয়েল ব্রাসি হ্যালহেড"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "byakoron_shakha",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দ, বর্গ ও বাক্যের অর্থ নিয়ে ব্যাকরণের কোন অংশে আলোচনা করা হয়?",
+            "options": [
+              "ধ্বনিতত্ত্ব",
+              "রূপতত্ত্ব",
+              "অর্থতত্ত্ব",
+              "বাক্যতত্ত্ব"
+            ],
+            "answer": "অর্থতত্ত্ব"
+          }
+        ]
+      },
+      {
+        "chapter_no": 3,
+        "chapter_title": "বাংলা ভাষার রীতি ও বিভাজন",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bhashar_riti",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ভাষার মূল রূপ কোনটি?",
+            "options": [
+              "কথ্য ভাষা রীতি",
+              "লেখ্য ভাষা রীতি",
+              "সাধু রীতি",
+              "কাব্য রীতি"
+            ],
+            "answer": "কথ্য ভাষা রীতি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bhashar_riti",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বর্তমানে লেখ্য ভাষার আদর্শ রীতিকে কী বলা হয়?",
+            "options": [
+              "সাধু রীতি",
+              "লেখ্য রীতি",
+              "আঞ্চলিক রীতি",
+              "প্রমিত রীতি"
+            ],
+            "answer": "প্রমিত রীতি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sadhu_riti",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি সাধু রীতির ক্রিয়াপদ?",
+            "options": [
+              "করিল",
+              "করেছে",
+              "করত",
+              "করলাম"
+            ],
+            "answer": "করিল"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "ancholik_riti",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ভাষার আঞ্চলিক ভেদকে কী বলা হয়?",
+            "options": [
+              "উপভাষা",
+              "বর্ণ",
+              "ব্যাকরণ",
+              "লিপি"
+            ],
+            "answer": "উপভাষা"
+          }
+        ]
+      },
+      {
+        "chapter_no": 4,
+        "chapter_title": "বাগ্যন্ত",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bagjontro",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ধ্বনি উচ্চারণে ব্যবহৃত প্রত্যঙ্গগুলোর সমষ্টিকে কী বলে?",
+            "options": [
+              "বাগযন্ত্র",
+              "বর্ণযন্ত্র",
+              "শব্দযন্ত্র",
+              "শ্রবণযন্ত্র"
+            ],
+            "answer": "বাগযন্ত্র"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bagjontro_ongsho",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি বাগযন্ত্রের অংশ?",
+            "options": [
+              "ফুসফুস",
+              "পাকস্থলী",
+              "পিত্তকোষ",
+              "যকৃৎ"
+            ],
+            "answer": "ফুসফুস"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "dhwani_utpadon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ধ্বনি সৃষ্টিকারী বায়ুপ্রবাহের উৎস কোনটি?",
+            "options": [
+              "ফুসফুস",
+              "জিহ্বা",
+              "তালু",
+              "দন্ত"
+            ],
+            "answer": "ফুসফুস"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bagprotyongo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাক্প্রত্যঙ্গের সবচেয়ে বাইরের অংশের নাম কী?",
+            "options": [
+              "তালু",
+              "মূর্ধা",
+              "দন্ত",
+              "ওষ্ঠ"
+            ],
+            "answer": "ওষ্ঠ"
+          }
+        ]
+      },
+      {
+        "chapter_no": 5,
+        "chapter_title": "ধ্বনি ও বর্ণ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "dhwani_borno",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাংলা ভাষায় মৌলিক স্বরধ্বনি কয়টি?",
+            "options": [
+              "৬",
+              "৭",
+              "১০",
+              "১১"
+            ],
+            "answer": "৭"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "swarodhoni",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "কোন ধ্বনি উচ্চারণের সময় মুখগহ্বরের কোথাও বায়ু বাধা পায় না?",
+            "options": [
+              "স্বরধ্বনি",
+              "ব্যঞ্জনধ্বনি",
+              "যুগ্মধ্বনি",
+              "নাসিক্যধ্বনি"
+            ],
+            "answer": "স্বরধ্বনি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "borno_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ধ্বনির লিখিত প্রতীককে কী বলা হয়?",
+            "options": [
+              "শব্দ",
+              "বাক্য",
+              "বর্ণ",
+              "ভাষা"
+            ],
+            "answer": "বর্ণ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shongkha_borno",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাংলা ভাষায় সংখ্যা নির্দেশের জন্য কয়টি সংখ্যাবর্ণ রয়েছে?",
+            "options": [
+              "৮",
+              "৯",
+              "১০",
+              "১১"
+            ],
+            "answer": "১০"
+          }
+        ]
+      },
+      {
+        "chapter_no": 6,
+        "chapter_title": "স্বরধ্বনি",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "swarodhoni_shrenibibhag",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "উচ্চারণের সময় জিভের কোন কোন অবস্থান অনুযায়ী স্বরধ্বনি ভাগ করা হয়?",
+            "options": [
+              "শুধু উচ্চতা",
+              "শুধু সম্মুখ অবস্থান",
+              "শুধু পশ্চাৎ অবস্থান",
+              "উচ্চতা ও সম্মুখ পশ্চাৎ অবস্থান"
+            ],
+            "answer": "উচ্চতা ও সম্মুখ পশ্চাৎ অবস্থান"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "swarodhoni_ucchota",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি উচ্চ স্বরধ্বনি?",
+            "options": [
+              "ই",
+              "আ",
+              "এ",
+              "অ"
+            ],
+            "answer": "ই"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "swarodhoni_ucchota",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি নিম্ন স্বরধ্বনি?",
+            "options": [
+              "আ",
+              "ই",
+              "উ",
+              "এ"
+            ],
+            "answer": "আ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "swarodhoni_obosthan",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি সম্মুখ স্বরধ্বনি?",
+            "options": [
+              "ই",
+              "আ",
+              "ও",
+              "উ"
+            ],
+            "answer": "ই"
+          }
+        ]
+      },
+      {
+        "chapter_no": 7,
+        "chapter_title": "ব্যঞ্জনধ্বনি",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "banjon_dhwani",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাক্প্রত্যঙ্গের যে স্থানে বাতাস বাধা পেয়ে ব্যঞ্জনধ্বনি সৃষ্টি হয়, তাকে কী বলে?",
+            "options": [
+              "উচ্চারণস্থান",
+              "উচ্চারণপ্রকৃতি",
+              "ধ্বনি সৃষ্টি",
+              "ধ্বনি প্রকৃতি"
+            ],
+            "answer": "উচ্চারণস্থান"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "banjon_uccharonsthan",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ওষ্ঠ্য ব্যঞ্জন উচ্চারণে প্রধানত কোন বাক্প্রত্যঙ্গ ব্যবহৃত হয়?",
+            "options": [
+              "ঠোঁট",
+              "জিভের ডগা",
+              "দন্তমূল",
+              "তালু"
+            ],
+            "answer": "ঠোঁট"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "pran_dhwani",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "যে ধ্বনি উচ্চারণে ফুসফুস থেকে নির্গত বায়ুপ্রবাহ অপেক্ষাকৃত বেশি, তাকে কী বলে?",
+            "options": [
+              "অল্পপ্রাণ",
+              "মহাপ্রাণ",
+              "স্বরধ্বনি",
+              "নাসিক্য"
+            ],
+            "answer": "মহাপ্রাণ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "pran_dhwani",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি মহাপ্রাণ ধ্বনির উদাহরণ?",
+            "options": [
+              "ফ",
+              "প",
+              "ব",
+              "ত"
+            ],
+            "answer": "ফ"
+          }
+        ]
+      },
+      {
+        "chapter_no": 8,
+        "chapter_title": "বর্ণের উচ্চারণ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "borner_uccharon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বাংলা ভাষার ৩৭টি মূল ধ্বনি প্রকাশের জন্য কয়টি মূল বর্ণ রয়েছে?",
+            "options": [
+              "৩৭",
+              "৪০",
+              "৫০",
+              "৫২"
+            ],
+            "answer": "৫০"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "o_borno_uccharon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "অ বর্ণের উচ্চারণ সাধারণত কয় রকম হতে পারে?",
+            "options": [
+              "এক",
+              "দুই",
+              "তিন",
+              "চার"
+            ],
+            "answer": "দুই"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "borner_uccharon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ই ও ঈ বর্ণের উচ্চারণ সম্পর্কে কোনটি সঠিক?",
+            "options": [
+              "দুটির উচ্চারণ একই",
+              "দুটির উচ্চারণ সম্পূর্ণ ভিন্ন",
+              "ঈ উচ্চারিত হয় না",
+              "ই উচ্চারিত হয় না"
+            ],
+            "answer": "দুটির উচ্চারণ একই"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "borner_uccharon",
+            "difficulty": "hard",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘অদ্য’ শব্দে অ বর্ণের উচ্চারণ কোনটির কাছাকাছি?",
+            "options": [
+              "অ",
+              "ও",
+              "ই",
+              "উ"
+            ],
+            "answer": "ও"
+          }
+        ]
+      },
+      {
+        "chapter_no": 9,
+        "chapter_title": "শব্দ ও পদের গঠন",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shobdo_pod",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দ যখন বাক্যে ব্যবহৃত হয় তখন তাকে কী বলে?",
+            "options": [
+              "পদাণু",
+              "পদ",
+              "বাক্যাংশ",
+              "প্রকৃতি"
+            ],
+            "answer": "পদ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "prokriti",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দের মূল অংশের আরেক নাম কী?",
+            "options": [
+              "প্রকৃতি",
+              "বিভক্তি",
+              "বলক",
+              "পদাণু"
+            ],
+            "answer": "প্রকৃতি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_prottoy",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দমূলের পূর্বে বসে নতুন শব্দ গঠন করে কোনটি?",
+            "options": [
+              "উপসর্গ",
+              "প্রত্যয়",
+              "বিভক্তি",
+              "বলক"
+            ],
+            "answer": "উপসর্গ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_prottoy",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শব্দমূলের পরে বসে নতুন শব্দ গঠন করে কোনটি?",
+            "options": [
+              "উপসর্গ",
+              "প্রত্যয়",
+              "বিভক্তি",
+              "সমাস"
+            ],
+            "answer": "প্রত্যয়"
+          }
+        ]
+      },
+      {
+        "chapter_no": 10,
+        "chapter_title": "উপসর্গ দিয়ে শব্দ গঠন",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_chinhito",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘অজানা’ শব্দে উপসর্গ কোনটি?",
+            "options": [
+              "অ",
+              "জানা",
+              "জা",
+              "না"
+            ],
+            "answer": "অ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_jog",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘সম্’ উপসর্গের সঙ্গে ‘বাদ’ যুক্ত হলে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "সংবাদ",
+              "বিবাদ",
+              "অবাদ",
+              "প্রবাদ"
+            ],
+            "answer": "সংবাদ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_jog",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘বে’ উপসর্গের সঙ্গে ‘আইন’ যুক্ত হলে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "বেআইন",
+              "সআইন",
+              "প্রআইন",
+              "অনআইন"
+            ],
+            "answer": "বেআইন"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "uposhorg_kaj",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "উপসর্গের প্রধান কাজ কোনটি?",
+            "options": [
+              "নতুন শব্দ গঠন করা",
+              "বাক্য ভাঙা",
+              "বর্ণ মুছে ফেলা",
+              "যতি চিহ্ন বসানো"
+            ],
+            "answer": "নতুন শব্দ গঠন করা"
+          }
+        ]
+      },
+      {
+        "chapter_no": 11,
+        "chapter_title": "প্রত্যয় দিয়ে শব্দ গঠন",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "prottoy_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ধাতুর পরে যেসব প্রত্যয় যুক্ত হয় তাদের কী বলে?",
+            "options": [
+              "কৃৎপ্রত্যয়",
+              "তদ্ধিত প্রত্যয়",
+              "উপসর্গ",
+              "বিভক্তি"
+            ],
+            "answer": "কৃৎপ্রত্যয়"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "toddhito_prottoy",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "তদ্ধিত প্রত্যয় দিয়ে সাধিত শব্দকে কী বলে?",
+            "options": [
+              "তদ্ধিতান্ত শব্দ",
+              "কৃদন্ত শব্দ",
+              "মৌলিক শব্দ",
+              "ধাতু"
+            ],
+            "answer": "তদ্ধিতান্ত শব্দ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "krit_prottoy",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘দোলনা’ শব্দে কোন ধরনের প্রত্যয় ব্যবহৃত হয়েছে?",
+            "options": [
+              "কৃৎপ্রত্যয়",
+              "তদ্ধিত প্রত্যয়",
+              "উপসর্গ",
+              "বিভক্তি"
+            ],
+            "answer": "কৃৎপ্রত্যয়"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "prottoy_jog",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘শিশু’ শব্দের সঙ্গে ‘অ’ প্রত্যয় যুক্ত হয়ে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "শৈশব",
+              "শিশুত্ব",
+              "শিশুতা",
+              "শিশুক"
+            ],
+            "answer": "শৈশব"
+          }
+        ]
+      },
+      {
+        "chapter_no": 12,
+        "chapter_title": "সমাস প্রক্রিয়ায় শব্দ গঠন",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "somas_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "সমাসের মাধ্যমে কী গঠিত হয়?",
+            "options": [
+              "নতুন শব্দ",
+              "নতুন বাক্য",
+              "নতুন বর্ণ",
+              "নতুন ধ্বনি"
+            ],
+            "answer": "নতুন শব্দ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "somas_pod",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "সমাসবদ্ধ পদকে কী বলে?",
+            "options": [
+              "সমস্তপদ",
+              "সমস্যমান পদ",
+              "পূর্বপদ",
+              "পরপদ"
+            ],
+            "answer": "সমস্তপদ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "byasbakko",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "ব্যাসবাক্য কোন পদকে ব্যাখ্যা করে?",
+            "options": [
+              "পূর্বপদ",
+              "পরপদ",
+              "সমস্তপদ",
+              "বিভক্তি"
+            ],
+            "answer": "সমস্তপদ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "somas_udahoron",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘হাট’ ও ‘বাজার’ সমাসবদ্ধ হয়ে কোন শব্দটি গঠিত হয়?",
+            "options": [
+              "হাটবাজার",
+              "বাজারহাটে",
+              "হাটেরবাজার",
+              "বাজারেরহাট"
+            ],
+            "answer": "হাটবাজার"
+          }
+        ]
+      },
+      {
+        "chapter_no": 13,
+        "chapter_title": "সন্ধি",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sandhi_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "পাশাপাশি ধ্বনির মিলনকে কী বলে?",
+            "options": [
+              "একত্রীকরণ",
+              "সন্নিবেশ",
+              "সমাস",
+              "সন্ধি"
+            ],
+            "answer": "সন্ধি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sandhi_gothon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "উত্তর এবং অধিকার শব্দের সন্ধিতে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "উত্তরাধিকার",
+              "উত্তরধিকার",
+              "উত্তরঅধিকার",
+              "উত্তোরাধিকার"
+            ],
+            "answer": "উত্তরাধিকার"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sandhi_gothon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "শুভ এবং ইচ্ছা শব্দের সন্ধিতে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "শুভেচ্ছা",
+              "শুভইচ্ছা",
+              "শুভচ্ছা",
+              "শুভিচ্ছা"
+            ],
+            "answer": "শুভেচ্ছা"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sandhi_gothon",
+            "difficulty": "hard",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিঃ এবং আকার শব্দের সন্ধিতে কোন শব্দ গঠিত হয়?",
+            "options": [
+              "নিরাকার",
+              "নিঃআকার",
+              "নিসাকার",
+              "নিরাকর"
+            ],
+            "answer": "নিরাকার"
+          }
+        ]
+      },
+      {
+        "chapter_no": 14,
+        "chapter_title": "শব্দদ্বিত্ব",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shobdo_dwitwo",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "অভিন্ন বা সামান্য পরিবর্তিত হয়ে কোনো শব্দ পরপর দুইবার ব্যবহৃত হলে তাকে কী বলে?",
+            "options": [
+              "শব্দদ্বিত্ব",
+              "সন্ধি",
+              "সমাস",
+              "প্রত্যয়"
+            ],
+            "answer": "শব্দদ্বিত্ব"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "onukar_dwitwo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘ব্যাপার স্যাপার’ কোন ধরনের শব্দদ্বিত্ব?",
+            "options": [
+              "অনুকার দ্বিত্ব",
+              "ধ্বন্যাত্মক দ্বিত্ব",
+              "পুনরাবৃত্ত দ্বিত্ব",
+              "সন্ধি"
+            ],
+            "answer": "অনুকার দ্বিত্ব"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "punorabritto_dwitwo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘ভালো ভালো’ কোন ধরনের শব্দদ্বিত্বের উদাহরণ?",
+            "options": [
+              "পুনরাবৃত্ত দ্বিত্ব",
+              "অনুকার দ্বিত্ব",
+              "সন্ধি",
+              "সমাস"
+            ],
+            "answer": "পুনরাবৃত্ত দ্বিত্ব"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "punorabritto_dwitwo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘কথায় কথায়’ কোন ধরনের পুনরাবৃত্ত?",
+            "options": [
+              "বিভক্তিযুক্ত পুনরাবৃত্ত",
+              "বিভক্তিহীন পুনরাবৃত্ত",
+              "অনুকার দ্বিত্ব",
+              "ধ্বন্যাত্মক দ্বিত্ব"
+            ],
+            "answer": "বিভক্তিযুক্ত পুনরাবৃত্ত"
+          }
+        ]
+      },
+      {
+        "chapter_no": 15,
+        "chapter_title": "নরবাচক ও নারীবাচক শব্দ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "lingo",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বিশেষ্য ও বিশেষণের নর ও নারীভেদের নাম কী?",
+            "options": [
+              "বচন",
+              "নির্দেশক",
+              "বলক",
+              "লিঙ্গ"
+            ],
+            "answer": "লিঙ্গ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "ubholingo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোন শব্দটি নর ও নারী উভয়কে বোঝাতে পারে?",
+            "options": [
+              "সন্তান",
+              "ভেড়ি",
+              "ছাত্র",
+              "চাচি"
+            ],
+            "answer": "সন্তান"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "naribachok",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘চাচা’ শব্দের নারীবাচক রূপ কোনটি?",
+            "options": [
+              "চাচি",
+              "চাচিনী",
+              "চাচানী",
+              "চাচিকা"
+            ],
+            "answer": "চাচি"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "naribachok_dhoron",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "স্বামী স্ত্রী সম্পর্ক বোঝানো নারীবাচক শব্দকে কী বলা হয়?",
+            "options": [
+              "পত্নীবাচক",
+              "অপত্নীবাচক",
+              "উভলিঙ্গ",
+              "নির্জীব"
+            ],
+            "answer": "পত্নীবাচক"
+          }
+        ]
+      },
+      {
+        "chapter_no": 16,
+        "chapter_title": "সংখ্যাবাচক শব্দ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shongkhabachok",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "যেসব শব্দ দিয়ে সংখ্যা বোঝায়, সেগুলোকে কী বলে?",
+            "options": [
+              "সংখ্যাবাচক শব্দ",
+              "বিশেষণ",
+              "সর্বনাম",
+              "ক্রিয়া"
+            ],
+            "answer": "সংখ্যাবাচক শব্দ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shongkha_borno",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি সংখ্যাবর্ণ?",
+            "options": [
+              "পাঁচ",
+              "৩",
+              "আড়াই",
+              "একাকী"
+            ],
+            "answer": "৩"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shongkha_shobdo",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি সংখ্যাশব্দ?",
+            "options": [
+              "বারো",
+              "২৩৩",
+              "দুজন",
+              "একাকী"
+            ],
+            "answer": "বারো"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "puronbachok",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি পূরণবাচক সংখ্যাশব্দ?",
+            "options": [
+              "প্রথম",
+              "এক",
+              "দুই",
+              "তিন"
+            ],
+            "answer": "প্রথম"
+          }
+        ]
+      },
+      {
+        "chapter_no": 17,
+        "chapter_title": "শব্দের শ্রেণিবিভাগ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shobder_utso",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "উৎস বিবেচনায় বাংলা শব্দভান্ডার কত প্রকার?",
+            "options": [
+              "তিন",
+              "চার",
+              "পাঁচ",
+              "ছয়"
+            ],
+            "answer": "চার"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "totsomo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি তৎসম শব্দ?",
+            "options": [
+              "গ্রহ",
+              "কুড়ি",
+              "কলম",
+              "পাখি"
+            ],
+            "answer": "গ্রহ"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "shobder_gothon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "গঠন বিবেচনায় শব্দ দুই ভাগে বিভক্ত কোন দুটি?",
+            "options": [
+              "মৌলিক ও সাধিত",
+              "তৎসম ও তদ্ভব",
+              "ধ্বনি ও বর্ণ",
+              "প্রত্যয় ও বিভক্তি"
+            ],
+            "answer": "মৌলিক ও সাধিত"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "todbhov",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘হাত’ শব্দটি উৎস বিবেচনায় কোন শ্রেণির?",
+            "options": [
+              "তদ্ভব",
+              "তৎসম",
+              "বিদেশি",
+              "দেশি"
+            ],
+            "answer": "তদ্ভব"
+          }
+        ]
+      },
+      {
+        "chapter_no": 18,
+        "chapter_title": "বিশেষ্য",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bisheshyo_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "যেসব শব্দ দিয়ে কোনো কিছুর নাম বোঝায় তাকে কী বলে?",
+            "options": [
+              "বিশেষ্য",
+              "অনুসর্গ",
+              "যোজক",
+              "সর্বনাম"
+            ],
+            "answer": "বিশেষ্য"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bisheshyo_shreni",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "যে বিশেষ্য দিয়ে কোনো কাজের নাম বোঝায় তাকে কী বলে?",
+            "options": [
+              "বস্তু বিশেষ্য",
+              "সমষ্টি বিশেষ্য",
+              "গুণ বিশেষ্য",
+              "ক্রিয়া বিশেষ্য"
+            ],
+            "answer": "ক্রিয়া বিশেষ্য"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "nam_bisheshyo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘ঢাকা’ কোন ধরনের নাম বিশেষ্য?",
+            "options": [
+              "স্থাননাম",
+              "ব্যক্তিনাম",
+              "সৃষ্টিনাম",
+              "কালনাম"
+            ],
+            "answer": "স্থাননাম"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "jati_bisheshyo",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি জাতি বিশেষ্যের উদাহরণ?",
+            "options": [
+              "পাখি",
+              "ঢাকা",
+              "গীতাঞ্জলি",
+              "হাবিব"
+            ],
+            "answer": "পাখি"
+          }
+        ]
+      },
+      {
+        "chapter_no": 19,
+        "chapter_title": "সর্বনাম",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sorbonam_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বিশেষ্যের পরিবর্তে ব্যবহৃত শব্দকে কী বলে?",
+            "options": [
+              "সর্বনাম",
+              "বিশেষণ",
+              "অনুসর্গ",
+              "ক্রিয়া"
+            ],
+            "answer": "সর্বনাম"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "sorbonam_shreni",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "পাঠ্যাংশ অনুযায়ী সর্বনামকে কয়টি শ্রেণিতে ভাগ করা যায়?",
+            "options": [
+              "সাত",
+              "আট",
+              "নয়",
+              "দশ"
+            ],
+            "answer": "নয়"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bekti_bachok_sorbonam",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘আমি’ কোন ধরনের সর্বনাম?",
+            "options": [
+              "বক্তা পক্ষের ব্যক্তিবাচক সর্বনাম",
+              "শ্রোতা পক্ষের সর্বনাম",
+              "অন্যবাচক সর্বনাম",
+              "প্রশ্নবাচক সর্বনাম"
+            ],
+            "answer": "বক্তা পক্ষের ব্যক্তিবাচক সর্বনাম"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "onnobachok_sorbonam",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "নিচের কোনটি অন্যবাচক সর্বনামের উদাহরণ?",
+            "options": [
+              "অন্য",
+              "আমি",
+              "তুমি",
+              "সে"
+            ],
+            "answer": "অন্য"
+          }
+        ]
+      },
+      {
+        "chapter_no": 20,
+        "chapter_title": "বিশেষণ",
+        "examples": [
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bisheshon_dharona",
+            "difficulty": "easy",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "বিশেষণ সাধারণত বিশেষ্য ও সর্বনামের কী প্রকাশ করে?",
+            "options": [
+              "গুণ, দোষ, সংখ্যা, পরিমাণ ও অবস্থা",
+              "শুধু নাম",
+              "শুধু কাজ",
+              "শুধু কাল"
+            ],
+            "answer": "গুণ, দোষ, সংখ্যা, পরিমাণ ও অবস্থা"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bornobachok_bisheshon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘নীল আকাশ’ পদগুচ্ছে ‘নীল’ কোন ধরনের বিশেষণ?",
+            "options": [
+              "বর্ণবাচক",
+              "গুণবাচক",
+              "অবস্থাবাচক",
+              "বিধেয়"
+            ],
+            "answer": "বর্ণবাচক"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "gunobachok_bisheshon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘চালাক ছেলে’ পদগুচ্ছে ‘চালাক’ কোন ধরনের বিশেষণ?",
+            "options": [
+              "গুণবাচক",
+              "বর্ণবাচক",
+              "অবস্থাবাচক",
+              "সংখ্যাবাচক"
+            ],
+            "answer": "গুণবাচক"
+          },
+          {
+            "subject": "Bangla_grammar",
+            "question_type": "grammar",
+            "format": "bidheyo_bisheshon",
+            "difficulty": "medium",
+            "instruction": "সঠিক উত্তরে টিক চিহ্ন দাও।",
+            "question": "‘লোকটা পাগল’ বাক্যে ‘পাগল’ কোন ধরনের বিশেষণ?",
+            "options": [
+              "বিধেয় বিশেষণ",
+              "বর্ণবাচক বিশেষণ",
+              "গুণবাচক বিশেষণ",
+              "সংখ্যাবাচক বিশেষণ"
+            ],
+            "answer": "বিধেয় বিশেষণ"
+          }
+        ]
+      }
+    ]
+  },
+  "notes_for_person_b": [
+    "Do not add class to every example.",
+    "Use subject to identify the broad pattern family.",
+    "Use question_type and format to identify the exact grammar skill being tested.",
+    "Use difficulty when it is meaningful.",
+    "Preserve the textbook exercise style and chapter specific grammar focus.",
+    "The answer field shows what a correct response looks like.",
+    "The uploaded Bangla grammar chapter files remain the factual source for generated questions and answers.",
+    "Do not convert Bangla grammar exercises into creative questions unless the source uses that structure."
+  ]
+}
