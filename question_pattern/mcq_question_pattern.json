@@ -1,0 +1,1096 @@
+{
+  "common_subjects": {
+    "description": "Chemistry MCQ examples for all chapters using the common MCQ pattern.",
+    "subject": "Chemistry",
+    "chapters": [
+      {
+        "chapter_no": 1,
+        "chapter_title": "রসায়নের ধারণা",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "তেজস্ক্রিয় মৌল কোনটি?",
+            "options": [
+              "রেডিয়াম",
+              "সিলভার",
+              "কপার",
+              "জিংক"
+            ],
+            "answer": "রেডিয়াম"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "কপারের সঙ্গে কোন ধাতু গলিয়ে ব্রোঞ্জ তৈরি করা হয়?",
+            "options": [
+              "লোহা",
+              "জিংক",
+              "টিন",
+              "লেড"
+            ],
+            "answer": "টিন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "নিচের কোনটি দাহ্য পদার্থের উদাহরণ?",
+            "options": [
+              "অ্যালকোহল",
+              "সোডিয়াম ক্লোরাইড",
+              "ক্যালসিয়াম কার্বনেট",
+              "পানি"
+            ],
+            "answer": "অ্যালকোহল"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "নিচের কোনটি বিস্ফোরক পদার্থের উদাহরণ?",
+            "options": [
+              "টিএনটি",
+              "খাদ্য লবণ",
+              "চিনি",
+              "কপার সালফেট"
+            ],
+            "answer": "টিএনটি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "রসায়নে অনুসন্ধান বা গবেষণা প্রক্রিয়ার প্রথম কাজ কোনটি?",
+            "options": [
+              "তথ্য বিশ্লেষণ",
+              "বিষয়বস্তু নির্ধারণ",
+              "পরীক্ষণ",
+              "উপসংহার লেখা"
+            ],
+            "answer": "বিষয়বস্তু নির্ধারণ"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "রসায়নের মূল আলোচ্য বিষয় কোনটি?",
+            "options": [
+              "পদার্থের গঠন, ধর্ম ও পরিবর্তন",
+              "শুধু জীবের শ্রেণিবিন্যাস",
+              "শুধু মহাকাশের গতি",
+              "শুধু সংখ্যার গণনা"
+            ],
+            "answer": "পদার্থের গঠন, ধর্ম ও পরিবর্তন"
+          }
+        ]
+      },
+      {
+        "chapter_no": 2,
+        "chapter_title": "পদার্থের অবস্থা",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "কাপে গরম চা রাখলে প্রধানত কোন প্রক্রিয়াটি ঘটে?",
+            "options": [
+              "বাষ্পীভবন",
+              "উর্ধ্বপাতন",
+              "নিঃসরণ",
+              "জমাট বাঁধা"
+            ],
+            "answer": "বাষ্পীভবন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "জলীয় বাষ্প ঘনীভূত হলে কণার কোন পরিবর্তন ঘটে?",
+            "options": [
+              "গতি শক্তি কমে",
+              "গতি শক্তি বাড়ে",
+              "কণার ভর কমে",
+              "কণার আকার বেড়ে যায়"
+            ],
+            "answer": "গতি শক্তি কমে"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "নিচের কোন পদার্থটি উর্ধ্বপাতিত হয়?",
+            "options": [
+              "আয়োডিন",
+              "খাদ্য লবণ",
+              "তামা",
+              "কাচ"
+            ],
+            "answer": "আয়োডিন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "উচ্চ ঘনত্বের স্থান থেকে নিম্ন ঘনত্বের স্থানে কণার স্বতঃস্ফূর্ত ছড়িয়ে পড়াকে কী বলে?",
+            "options": [
+              "ব্যাপন",
+              "নিঃসরণ",
+              "ঘনীভবন",
+              "পাতন"
+            ],
+            "answer": "ব্যাপন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "গ্যাসের অতি ক্ষুদ্র ছিদ্র দিয়ে বেরিয়ে যাওয়ার প্রক্রিয়াকে কী বলে?",
+            "options": [
+              "নিঃসরণ",
+              "ব্যাপন",
+              "স্ফুটন",
+              "গলন"
+            ],
+            "answer": "নিঃসরণ"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "নিশাদল ও খাদ্য লবণের মিশ্রণ পৃথক করতে কোন পদ্ধতি কার্যকর?",
+            "options": [
+              "উর্ধ্বপাতন",
+              "পরিস্রাবণ",
+              "অবক্ষেপণ",
+              "চুম্বকীয় পৃথকীকরণ"
+            ],
+            "answer": "উর্ধ্বপাতন"
+          }
+        ]
+      },
+      {
+        "chapter_no": 3,
+        "chapter_title": "পদার্থের গঠন",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পরমাণুর ধারণা প্রথম প্রস্তাব করেছিলেন কে?",
+            "options": [
+              "ডেমোক্রিটাস",
+              "রাদারফোর্ড",
+              "বোর",
+              "থমসন"
+            ],
+            "answer": "ডেমোক্রিটাস"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "কোন কণার আধান ধনাত্মক?",
+            "options": [
+              "প্রোটন",
+              "ইলেকট্রন",
+              "নিউট্রন",
+              "ফোটন"
+            ],
+            "answer": "প্রোটন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পারমাণবিক সংখ্যা কোনটির সমান?",
+            "options": [
+              "প্রোটন সংখ্যা",
+              "প্রোটন ও নিউট্রনের যোগফল",
+              "শুধু নিউট্রন সংখ্যা",
+              "ইলেকট্রন ও নিউট্রনের যোগফল"
+            ],
+            "answer": "প্রোটন সংখ্যা"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "একই মৌলের আইসোটোপগুলোর কোনটি একই থাকে?",
+            "options": [
+              "পারমাণবিক সংখ্যা",
+              "ভরসংখ্যা",
+              "নিউট্রন সংখ্যা",
+              "আপেক্ষিক ভর সবসময়"
+            ],
+            "answer": "পারমাণবিক সংখ্যা"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "বোরের পরমাণু মডেলে ইলেকট্রন কোথায় অবস্থান করে?",
+            "options": [
+              "নির্দিষ্ট শক্তিস্তরে",
+              "নিউক্লিয়াসের ভেতরে",
+              "কোনো নির্দিষ্ট বিন্যাস ছাড়া",
+              "শুধু প্রোটনের সঙ্গে"
+            ],
+            "answer": "নির্দিষ্ট শক্তিস্তরে"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "তেজস্ক্রিয় আইসোটোপের অনিয়ন্ত্রিত বিকিরণ কোন ক্ষতি করতে পারে?",
+            "options": [
+              "কোষের জিনগত পরিবর্তন",
+              "শুধু পানির ঘনত্ব বৃদ্ধি",
+              "শুধু শব্দ সৃষ্টি",
+              "ধাতুর ভর শূন্য করা"
+            ],
+            "answer": "কোষের জিনগত পরিবর্তন"
+          }
+        ]
+      },
+      {
+        "chapter_no": 4,
+        "chapter_title": "পর্যায় সারণি",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "আধুনিক পর্যায় সারণিতে মৌলগুলো প্রধানত কোন রাশির ক্রমে সাজানো?",
+            "options": [
+              "পারমাণবিক সংখ্যা",
+              "পারমাণবিক ভর",
+              "ঘনত্ব",
+              "গলনাঙ্ক"
+            ],
+            "answer": "পারমাণবিক সংখ্যা"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "একটি মৌলের পর্যায় সংখ্যা সাধারণত কী নির্দেশ করে?",
+            "options": [
+              "দখলকৃত প্রধান শক্তিস্তরের সংখ্যা",
+              "নিউট্রন সংখ্যা",
+              "যোজনী সবসময়",
+              "আইসোটোপ সংখ্যা"
+            ],
+            "answer": "দখলকৃত প্রধান শক্তিস্তরের সংখ্যা"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "একই প্রধান গ্রুপের মৌলগুলোর রাসায়নিক ধর্ম মিল থাকার প্রধান কারণ কী?",
+            "options": [
+              "যোজ্যতা স্তরে একই ধরনের ইলেকট্রন বিন্যাস",
+              "সমান ভরসংখ্যা",
+              "সমান নিউট্রন সংখ্যা",
+              "সমান গলনাঙ্ক"
+            ],
+            "answer": "যোজ্যতা স্তরে একই ধরনের ইলেকট্রন বিন্যাস"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "গ্রুপ 1 এর মৌলগুলোকে কী বলা হয়?",
+            "options": [
+              "ক্ষার ধাতু",
+              "হ্যালোজেন",
+              "নিষ্ক্রিয় গ্যাস",
+              "ক্ষারীয় মৃত্তিকা ধাতু"
+            ],
+            "answer": "ক্ষার ধাতু"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "গ্রুপ 17 এর মৌলগুলোর প্রচলিত নাম কী?",
+            "options": [
+              "হ্যালোজেন",
+              "নিষ্ক্রিয় গ্যাস",
+              "ক্ষার ধাতু",
+              "স্থানান্তর ধাতু"
+            ],
+            "answer": "হ্যালোজেন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "একটি পর্যায়ে বাম থেকে ডানে গেলে সাধারণভাবে পারমাণবিক ব্যাসার্ধ কীভাবে পরিবর্তিত হয়?",
+            "options": [
+              "কমে",
+              "বাড়ে",
+              "অপরিবর্তিত থাকে",
+              "প্রথমে শূন্য হয়"
+            ],
+            "answer": "কমে"
+          }
+        ]
+      },
+      {
+        "chapter_no": 5,
+        "chapter_title": "রাসায়নিক বন্ধন",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পরমাণুর সর্ববহিঃস্থ শক্তিস্তরের ইলেকট্রনকে কী বলে?",
+            "options": [
+              "যোজ্যতা ইলেকট্রন",
+              "নিউট্রন",
+              "কোর ইলেকট্রন",
+              "আইসোটোপ"
+            ],
+            "answer": "যোজ্যতা ইলেকট্রন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "নিষ্ক্রিয় গ্যাস সাধারণত স্থিতিশীল কেন?",
+            "options": [
+              "বহিঃস্থ শক্তিস্তর পূর্ণ থাকে",
+              "নিউট্রন থাকে না",
+              "প্রোটন থাকে না",
+              "তারা সবসময় ধাতু"
+            ],
+            "answer": "বহিঃস্থ শক্তিস্তর পূর্ণ থাকে"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "NaCl এ প্রধানত কোন বন্ধন থাকে?",
+            "options": [
+              "আয়নিক বন্ধন",
+              "সমযোজী বন্ধন",
+              "ধাতব বন্ধন",
+              "হাইড্রোজেন বন্ধন"
+            ],
+            "answer": "আয়নিক বন্ধন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "Cl2 অণুতে কোন বন্ধন থাকে?",
+            "options": [
+              "সমযোজী বন্ধন",
+              "আয়নিক বন্ধন",
+              "ধাতব বন্ধন",
+              "কোনো বন্ধন নেই"
+            ],
+            "answer": "সমযোজী বন্ধন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ইলেকট্রন গ্রহণ করে যে ঋণাত্মক আয়ন তৈরি হয় তাকে কী বলে?",
+            "options": [
+              "অ্যানায়ন",
+              "ক্যাটায়ন",
+              "নিউক্লিয়াস",
+              "সমস্থানিক"
+            ],
+            "answer": "অ্যানায়ন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ধাতুর পরমাণুগুলোর মধ্যে মুক্ত ইলেকট্রনের আকর্ষণভিত্তিক বন্ধনকে কী বলে?",
+            "options": [
+              "ধাতব বন্ধন",
+              "আয়নিক বন্ধন",
+              "সমযোজী বন্ধন",
+              "অষ্টক বন্ধন"
+            ],
+            "answer": "ধাতব বন্ধন"
+          }
+        ]
+      },
+      {
+        "chapter_no": 6,
+        "chapter_title": "মোলের ধারণা ও রাসায়নিক গণনা",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "এক মোল পদার্থে কণার সংখ্যা কত?",
+            "options": [
+              "6.023 × 10^23",
+              "3.0 × 10^8",
+              "9.8 × 10^2",
+              "1.0 × 10^3"
+            ],
+            "answer": "6.023 × 10^23"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "প্রমিত তাপমাত্রা ও চাপে এক মোল গ্যাসের আয়তন কত?",
+            "options": [
+              "22.4 L",
+              "11.2 L",
+              "44.8 L",
+              "1.0 L"
+            ],
+            "answer": "22.4 L"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "কোনো পদার্থের পরিমাণ নির্ণয়ের বিশ্লেষণকে কী বলে?",
+            "options": [
+              "পরিমাণগত বিশ্লেষণ",
+              "গুণগত বিশ্লেষণ",
+              "বর্ণগত বিশ্লেষণ",
+              "তাপীয় বিশ্লেষণ"
+            ],
+            "answer": "পরিমাণগত বিশ্লেষণ"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "এক লিটার দ্রবণে এক মোল দ্রব পদার্থ থাকলে দ্রবণের ঘনমাত্রা কত?",
+            "options": [
+              "1 M",
+              "0.1 M",
+              "10 M",
+              "22.4 M"
+            ],
+            "answer": "1 M"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "স্থূল সংকেত কী নির্দেশ করে?",
+            "options": [
+              "মৌলগুলোর পরমাণুর সরলতম পূর্ণসংখ্যার অনুপাত",
+              "অণুর প্রকৃত ভর",
+              "নিউট্রন সংখ্যা",
+              "শুধু গলনাঙ্ক"
+            ],
+            "answer": "মৌলগুলোর পরমাণুর সরলতম পূর্ণসংখ্যার অনুপাত"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "রাসায়নিক সমীকরণ সমতাকরণের মূল ভিত্তি কোন নীতি?",
+            "options": [
+              "ভর সংরক্ষণ নীতি",
+              "শুধু চার্লসের সূত্র",
+              "ওহমের সূত্র",
+              "আর্কিমিডিসের সূত্র"
+            ],
+            "answer": "ভর সংরক্ষণ নীতি"
+          }
+        ]
+      },
+      {
+        "chapter_no": 7,
+        "chapter_title": "রাসায়নিক বিক্রিয়া",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "যে পরিবর্তনে নতুন পদার্থ তৈরি হয় তাকে কী বলে?",
+            "options": [
+              "রাসায়নিক পরিবর্তন",
+              "ভৌত পরিবর্তন",
+              "অবস্থার পরিবর্তন",
+              "শুধু গলন"
+            ],
+            "answer": "রাসায়নিক পরিবর্তন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "যে বিক্রিয়ায় তাপ নির্গত হয় তাকে কী বলে?",
+            "options": [
+              "তাপ উৎপাদী বিক্রিয়া",
+              "তাপহারী বিক্রিয়া",
+              "উভমুখী বিক্রিয়া",
+              "অধঃক্ষেপণ"
+            ],
+            "answer": "তাপ উৎপাদী বিক্রিয়া"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ইলেকট্রন ত্যাগের প্রক্রিয়াকে কী বলে?",
+            "options": [
+              "জারণ",
+              "বিজারণ",
+              "প্রশমন",
+              "ঘনীভবন"
+            ],
+            "answer": "জারণ"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "এসিড ও ক্ষারের বিক্রিয়ায় লবণ ও পানি উৎপন্ন হলে সেটি কোন বিক্রিয়া?",
+            "options": [
+              "প্রশমন বিক্রিয়া",
+              "পলিমারকরণ",
+              "বিশ্লেষণ",
+              "উর্ধ্বপাতন"
+            ],
+            "answer": "প্রশমন বিক্রিয়া"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "দ্রবণে অদ্রবণীয় কঠিন পদার্থ তৈরি হওয়ার বিক্রিয়াকে কী বলে?",
+            "options": [
+              "অধঃক্ষেপণ বিক্রিয়া",
+              "দহন",
+              "তাপহারী বিক্রিয়া",
+              "নিঃসরণ"
+            ],
+            "answer": "অধঃক্ষেপণ বিক্রিয়া"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "নিচের কোনটি বিক্রিয়ার হার বাড়াতে পারে?",
+            "options": [
+              "তাপমাত্রা বৃদ্ধি",
+              "তাপমাত্রা কমানো",
+              "ঘনমাত্রা কমানো",
+              "কণার আকার বড় করা"
+            ],
+            "answer": "তাপমাত্রা বৃদ্ধি"
+          }
+        ]
+      },
+      {
+        "chapter_no": 8,
+        "chapter_title": "রসায়ন ও শক্তি",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পদার্থের মধ্যে সঞ্চিত এবং রাসায়নিক বিক্রিয়ায় প্রকাশিত শক্তিকে কী বলে?",
+            "options": [
+              "রাসায়নিক শক্তি",
+              "শব্দ শক্তি",
+              "স্থিতিস্থাপক শক্তি",
+              "চৌম্বক শক্তি"
+            ],
+            "answer": "রাসায়নিক শক্তি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "তাপ উৎপাদী বিক্রিয়ায় পরিবেশে কী ঘটে?",
+            "options": [
+              "তাপ নির্গত হয়",
+              "তাপ শোষিত হয়",
+              "কোনো শক্তি পরিবর্তন হয় না",
+              "শুধু ভর শূন্য হয়"
+            ],
+            "answer": "তাপ নির্গত হয়"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "ব্যাটারিতে প্রধানত কোন শক্তি রূপান্তর ঘটে?",
+            "options": [
+              "রাসায়নিক শক্তি থেকে বৈদ্যুতিক শক্তি",
+              "বৈদ্যুতিক শক্তি থেকে কেবল শব্দ",
+              "তাপ থেকে ভর",
+              "আলো থেকে নিউট্রন"
+            ],
+            "answer": "রাসায়নিক শক্তি থেকে বৈদ্যুতিক শক্তি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "তড়িৎ বিশ্লেষ্য কোষে কোন শক্তি ব্যবহার করে রাসায়নিক পরিবর্তন ঘটানো হয়?",
+            "options": [
+              "বৈদ্যুতিক শক্তি",
+              "শুধু শব্দ শক্তি",
+              "শুধু মহাকর্ষীয় শক্তি",
+              "কোনো শক্তি নয়"
+            ],
+            "answer": "বৈদ্যুতিক শক্তি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "জ্বালানির বিশুদ্ধতা বেশি হওয়া কেন ভালো?",
+            "options": [
+              "ক্ষতিকর দূষক কম উৎপন্ন হতে পারে",
+              "সবসময় ভর বেড়ে যায়",
+              "দহন বন্ধ হয়ে যায়",
+              "জ্বালানি অদাহ্য হয়"
+            ],
+            "answer": "ক্ষতিকর দূষক কম উৎপন্ন হতে পারে"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ভারী নিউক্লিয়াস ভেঙে শক্তি নির্গমনের প্রক্রিয়াকে কী বলে?",
+            "options": [
+              "নিউক্লিয়ার ফিশন",
+              "ব্যাপন",
+              "উর্ধ্বপাতন",
+              "ঘনীভবন"
+            ],
+            "answer": "নিউক্লিয়ার ফিশন"
+          }
+        ]
+      },
+      {
+        "chapter_no": 9,
+        "chapter_title": "এসিড ক্ষারক সমতা",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "এসিড নীল লিটমাসকে কোন রঙে পরিবর্তন করে?",
+            "options": [
+              "লাল",
+              "নীল",
+              "সবুজ",
+              "কালো"
+            ],
+            "answer": "লাল"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "ক্ষার লাল লিটমাসকে কোন রঙে পরিবর্তন করে?",
+            "options": [
+              "নীল",
+              "লাল",
+              "হলুদ",
+              "বর্ণহীন"
+            ],
+            "answer": "নীল"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "নিরপেক্ষ দ্রবণের pH কত?",
+            "options": [
+              "7",
+              "1",
+              "14",
+              "0"
+            ],
+            "answer": "7"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "এসিড ও ক্ষারের প্রশমন বিক্রিয়ায় সাধারণত কী উৎপন্ন হয়?",
+            "options": [
+              "লবণ ও পানি",
+              "শুধু হাইড্রোজেন",
+              "শুধু অক্সিজেন",
+              "শুধু কার্বন"
+            ],
+            "answer": "লবণ ও পানি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "পানির স্থায়ী বা অস্থায়ী খরতার সঙ্গে প্রধানত কোন ধাতব আয়ন জড়িত?",
+            "options": [
+              "ক্যালসিয়াম ও ম্যাগনেসিয়াম",
+              "সোডিয়াম ও পটাসিয়াম",
+              "সোনা ও রূপা",
+              "হাইড্রোজেন ও হিলিয়াম"
+            ],
+            "answer": "ক্যালসিয়াম ও ম্যাগনেসিয়াম"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "এসিড বৃষ্টির প্রধান ক্ষতি কোনটি?",
+            "options": [
+              "মাটি ও জলাশয়ের অম্লতা বৃদ্ধি",
+              "সব পানি নিরপেক্ষ করা",
+              "বায়ুতে অক্সিজেন দ্বিগুণ করা",
+              "ধাতুর ক্ষয় সম্পূর্ণ বন্ধ করা"
+            ],
+            "answer": "মাটি ও জলাশয়ের অম্লতা বৃদ্ধি"
+          }
+        ]
+      },
+      {
+        "chapter_no": 10,
+        "chapter_title": "খনিজ সম্পদ: ধাতু ও অধাতু",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "সিনাবার কোন ধাতুর আকরিক?",
+            "options": [
+              "মারকারি",
+              "কপার",
+              "জিংক",
+              "লেড"
+            ],
+            "answer": "মারকারি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "বক্সাইট কোন ধাতুর প্রধান আকরিক?",
+            "options": [
+              "অ্যালুমিনিয়াম",
+              "লোহা",
+              "তামা",
+              "টিন"
+            ],
+            "answer": "অ্যালুমিনিয়াম"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "ক্যালামাইন কোন ধাতুর আকরিক?",
+            "options": [
+              "জিংক",
+              "অ্যালুমিনিয়াম",
+              "মারকারি",
+              "সোডিয়াম"
+            ],
+            "answer": "জিংক"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "ব্রোঞ্জ প্রধানত কোন দুটি ধাতুর সংকর?",
+            "options": [
+              "কপার ও টিন",
+              "লোহা ও কার্বন",
+              "কপার ও জিংক",
+              "অ্যালুমিনিয়াম ও ম্যাগনেসিয়াম"
+            ],
+            "answer": "কপার ও টিন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "অত্যন্ত সক্রিয় ধাতু নিষ্কাশনে সাধারণত কোন পদ্ধতি ব্যবহৃত হয়?",
+            "options": [
+              "তড়িৎ বিশ্লেষণ",
+              "শুধু ছাঁকন",
+              "শুধু পাতন",
+              "উর্ধ্বপাতন"
+            ],
+            "answer": "তড়িৎ বিশ্লেষণ"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "সব খনিজকে আকরিক বলা যায় না কেন?",
+            "options": [
+              "সব খনিজ থেকে অর্থনৈতিকভাবে ধাতু নিষ্কাশন সম্ভব নয়",
+              "সব খনিজ গ্যাস",
+              "সব আকরিক ধাতু নয়",
+              "সব খনিজ পানিতে দ্রবীভূত"
+            ],
+            "answer": "সব খনিজ থেকে অর্থনৈতিকভাবে ধাতু নিষ্কাশন সম্ভব নয়"
+          }
+        ]
+      },
+      {
+        "chapter_no": 11,
+        "chapter_title": "খনিজ সম্পদ: জীবাশ্ম",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "কয়লার প্রধান উপাদান কোনটি?",
+            "options": [
+              "কার্বন",
+              "অক্সিজেন",
+              "ক্যালসিয়াম",
+              "সোডিয়াম"
+            ],
+            "answer": "কার্বন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পেট্রোলিয়ামের প্রধান রাসায়নিক উপাদান কী ধরনের যৌগ?",
+            "options": [
+              "হাইড্রোকার্বন",
+              "শুধু লবণ",
+              "ধাতব অক্সাইড",
+              "শুধু পানি"
+            ],
+            "answer": "হাইড্রোকার্বন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "আলকেন কোন ধরনের হাইড্রোকার্বন?",
+            "options": [
+              "সম্পৃক্ত",
+              "অসম্পৃক্ত",
+              "অজৈব",
+              "আয়নিক"
+            ],
+            "answer": "সম্পৃক্ত"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ব্রোমিন দ্রবণের বর্ণ দ্রুত দূর করতে পারে কোন শ্রেণির যৌগ?",
+            "options": [
+              "আলকিন",
+              "আলকেন",
+              "নিষ্ক্রিয় গ্যাস",
+              "ধাতব অক্সাইড"
+            ],
+            "answer": "আলকিন"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "ইথানলে কোন কার্যকরী মূলক থাকে?",
+            "options": [
+              "হাইড্রক্সিল",
+              "কার্বক্সিল",
+              "অ্যালডিহাইড",
+              "অ্যামিনো"
+            ],
+            "answer": "হাইড্রক্সিল"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "ইথিন থেকে পলিইথিন তৈরির বিক্রিয়া কোন ধরনের?",
+            "options": [
+              "সংযোজন পলিমারকরণ",
+              "প্রশমন",
+              "উর্ধ্বপাতন",
+              "অধঃক্ষেপণ"
+            ],
+            "answer": "সংযোজন পলিমারকরণ"
+          }
+        ]
+      },
+      {
+        "chapter_no": 12,
+        "chapter_title": "আমাদের জীবনে রসায়ন",
+        "mcq_examples": [
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "অ্যামোনিয়া উৎপাদনে হাইড্রোজেন ও নাইট্রোজেনের মোল অনুপাত কত?",
+            "options": [
+              "3:1",
+              "1:3",
+              "1:2",
+              "2:1"
+            ],
+            "answer": "3:1"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "পাউরুটি বা কেক ফুলাতে সাধারণত কোন পদার্থ ব্যবহার করা হয়?",
+            "options": [
+              "বেকিং সোডা",
+              "ফরমালিন",
+              "কপার সালফেট",
+              "সালফিউরিক এসিড"
+            ],
+            "answer": "বেকিং সোডা"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "কাঁচা আম বা টমেটো দীর্ঘদিন সংরক্ষণে কোন গৃহস্থালি পদার্থ ব্যবহার করা যায়?",
+            "options": [
+              "ভিনেগার",
+              "ফরমালিন",
+              "পারদ",
+              "কস্টিক সোডা"
+            ],
+            "answer": "ভিনেগার"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "খাদ্য সংরক্ষণে ফরমালিন ব্যবহার করা উচিত নয় কেন?",
+            "options": [
+              "এটি বিষাক্ত",
+              "এটি শুধু মিষ্টি",
+              "এটি খাদ্যকে ঠান্ডা করে",
+              "এটি অক্সিজেন"
+            ],
+            "answer": "এটি বিষাক্ত"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "কঠিন পানিতে সাবান কম কার্যকর হওয়ার প্রধান কারণ কী?",
+            "options": [
+              "Ca2+ ও Mg2+ আয়নের সঙ্গে অদ্রবণীয় পদার্থ তৈরি",
+              "পানিতে কোনো আয়ন নেই",
+              "সাবান বাষ্প হয়ে যায়",
+              "পানি সবসময় এসিডীয়"
+            ],
+            "answer": "Ca2+ ও Mg2+ আয়নের সঙ্গে অদ্রবণীয় পদার্থ তৈরি"
+          },
+          {
+            "subject": "Chemistry",
+            "question_type": "MCQ",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "শিল্প বর্জ্যের ভারী ধাতু মানুষের কোন অঙ্গের ক্ষতি করতে পারে?",
+            "options": [
+              "কিডনি ও লিভার",
+              "শুধু চুল",
+              "শুধু নখ",
+              "শুধু দাঁতের এনামেল"
+            ],
+            "answer": "কিডনি ও লিভার"
+          }
+        ]
+      }
+    ]
+  },
+  "notes_for_person_b": [
+    "Use subject to identify the broad pattern family.",
+    "Use question_type and format to identify the exact MCQ structure.",
+    "Use difficulty when it is meaningful and can be identified from the source examples.",
+    "The answer field shows what a correct response looks like.",
+    "Person A's textbook passages remain the factual source for generated questions and answers.",
+    "Do not invent a new format just to fill the JSON."
+  ]
+}
