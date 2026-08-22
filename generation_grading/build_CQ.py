@@ -65,16 +65,16 @@ def build_cq_prompt(class_number, subject, chapter, difficulty, passages, exampl
             {e["stimulus"]}
 
             ক:
-            {e["ka"]}
+            {e["questions"]["ka"]}
 
             খ:
-            {e["kha"]}
+            {e["questions"]["kha"]}
 
             গ:
-            {e["ga"]}
+            {e["questions"]["ga"]}
 
             ঘ:
-            {e["gha"]}
+            {e["questions"]["gha"]}
             """
         for e in examples
     )
