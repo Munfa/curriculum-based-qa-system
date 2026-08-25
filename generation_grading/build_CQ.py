@@ -133,9 +133,8 @@ def generate_cq(class_number, subject, chapter, difficulty):
         )
 
     examples = get_cq_examples(
-        subject,
         difficulty,
-        n=3
+        n=2
     )
 
     if not examples:

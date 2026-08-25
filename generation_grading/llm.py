@@ -8,16 +8,16 @@ load_dotenv()
 
 MODEL = "gemini-3.5-flash-lite"
 
-api_key = genai.Client(api_key=os.environ["gemini_api_key"])
+client = genai.Client(api_key=os.getenv("gemini_api_key"))
 
-if not api_key:
+if not client:
     print("Error: API Key not found!")
 else:
     print("API Key loaded successfully.")
 
 def generate(prompt: str, response_schema: dict) -> dict:
 
-    response = api_key.models.generate_content(
+    response = client.models.generate_content(
         model=MODEL,
         contents=prompt,
         config=types.GenerateContentConfig(

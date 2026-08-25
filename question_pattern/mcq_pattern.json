@@ -1,0 +1,229 @@
+{
+    "examples": [
+        {
+            "id": "mcq_001",
+            "subject": "Chemistry",
+            "class": "9",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "তেজস্ক্রিয় মৌল কোনটি?",
+            "options": [
+                "রেডিয়াম",
+                "সিলভার",
+                "কপার",
+                "জিংক"
+            ],
+            "answer": "রেডিয়াম"
+        },
+        {
+            "id": "mcq_002",
+            "subject": "Chemistry",
+            "class": "9",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "রসায়নের মূল আলোচ্য বিষয় কোনটি?",
+            "options": [
+              "পদার্থের গঠন, ধর্ম ও পরিবর্তন",
+              "শুধু জীবের শ্রেণিবিন্যাস",
+              "শুধু মহাকাশের গতি",
+              "শুধু সংখ্যার গণনা"
+            ],
+            "answer": "পদার্থের গঠন, ধর্ম ও পরিবর্তন"
+        },
+        {
+            "id": "mcq_003",
+            "subject": "Chemistry",
+            "class": "10",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "একটি পর্যায়ে বাম থেকে ডানে গেলে সাধারণভাবে পারমাণবিক ব্যাসার্ধ কীভাবে পরিবর্তিত হয়?",
+            "options": [
+              "কমে",
+              "বাড়ে",
+              "অপরিবর্তিত থাকে",
+              "প্রথমে শূন্য হয়"
+            ],
+            "answer": "কমে"
+        },
+        {
+            "id": "mcq_004",
+            "subject": "Bangla",
+            "class": "9",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "বই পড়া’ প্রবন্ধে উল্লিখিত ‘জীর্ণ” শব্দটির অর্থ কী?",
+            "options": [
+                "পুরাতন",
+                "হজম",
+                "নতুন",
+                "লেহন"
+            ],
+            "answer": "হজম"
+        },
+        {
+            "id": "mcq_005",
+            "subject": "Bangla",
+            "class": "9",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "নীতির চর্চা কোথায় হয়?",
+            "options": [
+                "জাদুঘরে",
+                "কলেজে",
+                "ঘরে",
+                "লাইব্রেরিতে"
+            ],
+            "answer": "ঘরে"
+        },
+        {
+            "id": "mcq_006",
+            "subject": "Bangla",
+            "class": "10",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "‘দয়ার সাগর’ উপাধিটি কেন দেওয়া হয়েছিল?",
+            "options": [
+                "তিনি ছিলেন দানশীল ও সহানুভূতিশীল",
+                "তিনি সমুদ্র ভ্রমণ করেছিলেন",
+                "তিনি বিদ্বান ব্যক্তি ছিলেন",
+                "তিনি সাহিত্যে অবদান রেখেছিলেন"
+            ],
+            "answer": "তিনি ছিলেন দানশীল ও সহানুভূতিশীল"
+        },
+        {
+            "id": "mcq_007",
+            "subject": "Science",
+            "class": "8",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "প্রাণীজগতে কোন পর্বের প্রাণির সংখ্যা সবচেয়ে বেশি?",
+            "options": [
+                "মলাস্কা",
+                "আর্থোপোডা",
+                "কর্ডাটা",
+                "অ্যানেলিডা"
+            ],
+            "answer": "আর্থোপোডা"
+        },
+        {
+            "id": "mcq_008",
+            "subject": "Science",
+            "class": "8",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "কোনটি উভচর প্রাণীর বৈশিষ্ট্য?",
+            "options": [
+                "বাচ্চা প্রসব করা",
+                "বুকে ভর দিয়ে চলা",
+                "শীতল রক্তবিশিষ্ট",
+                "ত্বক মসৃণ ও গ্রন্থিযুক্ত"
+            ],
+            "answer": "শীতল রক্তবিশিষ্ট"
+        },
+        {
+            "id": "mcq_009",
+            "subject": "Science",
+            "class": "7",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "অ্যানিম্যালিয়া জগৎকে কয়টি পর্বে ভাগ করা যায়?",
+            "options": [
+                "৫",
+                "৬",
+                "৭",
+                "৯"
+            ],
+            "answer": "৯"
+        },
+        {
+            "id": "mcq_010",
+            "subject": "BGS",
+            "class": "5",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "‘ময়লা আবর্জনা নির্দিষ্ট স্থানে ফেলবেন’ প্রত্নতাত্ত্বিক স্থানে এই লেখাটি থাকে কেন?",
+            "options": [
+                "সৌন্দর্য বর্ধন",
+                "পরিবেশ পরিচ্ছন্ন রাখা",
+                "পর্যটকের দৃষ্টি আকর্ষণ",
+                "শৃঙ্খলা রক্ষা করা"
+            ],
+            "answer": "পরিবেশ পরিচ্ছন্ন রাখা"
+        },
+        {
+            "id": "mcq_011",
+            "subject": "BGS",
+            "class": "6",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "মহাস্থানগড় কোন নদীর তীরে অবস্থিত?",
+            "options": [
+                "করতোয়া",
+                "শীতলক্ষ্যা",
+                "বুড়িগঙ্গা",
+                "ইছামতি"
+            ],
+            "answer": "করতোয়া"
+        },
+        {
+            "id": "mcq_012",
+            "subject": "BGS",
+            "class": "7",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "নিচের কোন সভ্যতা সমুদ্র বাণিজ্যের সাথে সম্পর্কিত?",
+            "options": [
+                "মহাস্থানগড়",
+                "ময়নামতি",
+                "উয়ারী-বটেশ্বর",
+                "পাহাড়পুর"
+            ],
+            "answer": "উয়ারী-বটেশ্বর"
+        },
+        {
+            "id": "mcq_013",
+            "subject": "Economics",
+            "class": "10",
+            "format": "standard_mcq",
+            "difficulty": "easy",
+            "question": "উন্নয়ন বাজেটের আয়ের খাত কোনটি?",
+            "options": [
+                "VAT",
+                "ডাক বিভাগ",
+                "বন্ডের মাধ্যমে ঋণ",
+                "প্রশাসনিক ফি"
+            ],
+            "answer": "বন্ডের মাধ্যমে ঋণ"
+        },
+        {
+            "id": "mcq_014",
+            "subject": "Economics",
+            "class": "9",
+            "format": "standard_mcq",
+            "difficulty": "medium",
+            "question": "সরকারি অর্থব্যবস্থায় কী নিয়ে আলোচনা হয়?",
+            "options": [
+                "আয়-ব্যয়",
+                "লাভ-ক্ষতি",
+                "জাতীয় সমস্যা ও সমাধান",
+                "জাতীয় উন্নয়ন ও প্রবৃদ্ধি"
+            ],
+            "answer": "আয়-ব্যয়"
+        },
+        {
+            "id": "mcq_015",
+            "subject": "Economics",
+            "class": "10",
+            "format": "standard_mcq",
+            "difficulty": "hard",
+            "question": "সরকার জনগণের নিকট হতে বাধ্যতামূলকভাবে যে অর্থ আদায় করে তাকে কী বলা হয়?",
+            "options": [
+                "শুল্ক",
+                "ফি",
+                "কর",
+                "ভর্তুকি"
+            ],
+            "answer": "কর"
+        }
+    ]
+}

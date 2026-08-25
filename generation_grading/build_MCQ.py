@@ -52,7 +52,7 @@ def build_mcq_prompt(class_number, subject, chapter, difficulty, passages, examp
     )
 
     prompt = f"""
-        Generate twenty multiple-choice question for:
+        Generate one multiple-choice question for:
 
         Class: {class_number}
         Subject: {subject}
@@ -100,7 +100,6 @@ def generate_mcq(class_number, subject, chapter, difficulty):
         raise ValueError("No relevant textbook passages were retrieved.")
 
     examples = get_mcq_examples(
-        subject,
         difficulty,
         n=3
     )

@@ -2,11 +2,13 @@ import json
 import random
 from pathlib import Path
 
-
 DATA_DIR = Path(__file__).resolve().parent.parent / "question_pattern"
 
-MCQ_FILE = DATA_DIR / "mcq_question_pattern.json"
-CQ_FILE = DATA_DIR / "cq_question_pattern.json"
+# MCQ_FILE = DATA_DIR / "mcq_question_pattern.json"
+# CQ_FILE = DATA_DIR / "cq_question_pattern.json"
+
+MCQ_FILE = DATA_DIR / "mcq_pattern.json"
+CQ_FILE = DATA_DIR / "cq_pattern.json"
 
 
 def _flatten_examples(raw, example_key):
@@ -31,42 +33,27 @@ def _flatten_examples(raw, example_key):
     return examples
 
 
+# with open(MCQ_FILE, "r", encoding="utf-8") as f:
+#     mcq_examples = _flatten_examples(json.load(f), "mcq_examples")
+
+# with open(CQ_FILE, "r", encoding="utf-8") as f:
+#     cq_examples = _flatten_examples(json.load(f), "cq_examples")
+
 with open(MCQ_FILE, "r", encoding="utf-8") as f:
-    mcq_examples = _flatten_examples(json.load(f), "mcq_examples")
+    mcq_examples = json.load(f)
 
 with open(CQ_FILE, "r", encoding="utf-8") as f:
-    cq_examples = _flatten_examples(json.load(f), "cq_examples")
+    cq_examples = json.load(f)
 
 
-def get_mcq_examples(subject, difficulty=None, n=3):
-    matches = [
-        example
-        for example in mcq_examples
-        if example["subject"] == subject
-    ]
+def get_mcq_examples(difficulty=None, n=3):
+    matches = list(mcq_examples['examples'])
 
-    #matches = list(mcq_examples)
-
-    if difficulty:
-        difficulty_matches = [
-            example
-            for example in matches
-            if example.get("difficulty") == difficulty
-        ]
-        if difficulty_matches:
-            matches = difficulty_matches
-
-    return random.sample(matches, min(n, len(matches)))
-
-
-def get_cq_examples(subject, difficulty=None, n=3):
-    matches = [
-        example
-        for example in cq_examples
-        if example["subject"] == subject
-    ]
-
-    #matches = list(cq_examples)
+    # matches = [
+    #         example
+    #         for example in mcq_examples
+    #         # if example["subject"] == subject
+    # ]
 
     if difficulty:
         difficulty_matches = [
@@ -80,11 +67,23 @@ def get_cq_examples(subject, difficulty=None, n=3):
     return random.sample(matches, min(n, len(matches)))
 
 
-def get_eng_examples():
-    pass
+def get_cq_examples(difficulty=None, n=2):
+    # matches = [
+    #     example
+    #     for example in cq_examples
+    #     if example["subject"] == subject
+    # ]
 
-def get_eng_gram_examples():
-    pass
+    matches = list(cq_examples['examples'])
 
-def get_bang_examples():
-    pass
+    if difficulty:
+        difficulty_matches = [
+            example
+            for example in matches
+            if example.get("difficulty") == difficulty
+        ]
+        if difficulty_matches:
+            matches = difficulty_matches
+
+    return random.sample(matches, min(n, len(matches)))
+
