@@ -1,7 +1,7 @@
 
-index_v1/
-index/
-cleaned/
+# index_v1/
+# index/
+# cleaned/
 
 # --- Raw dataset (not redistributable; each member downloads from NCTB/Mendeley) ---
 NCTB-SchoolText*/

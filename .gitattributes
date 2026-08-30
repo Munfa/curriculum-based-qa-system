@@ -1,4 +1,2 @@
 cleaned/* filter=lfs diff=lfs merge=lfs -text
-index_v1/* filter=lfs diff=lfs merge=lfs -text
 index_v1/** filter=lfs diff=lfs merge=lfs -text
-index_v1/*** filter=lfs diff=lfs merge=lfs -text
