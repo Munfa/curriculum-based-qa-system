@@ -1,7 +1,13 @@
 
-# index_v1/
-# index/
-# cleaned/
+# ============================================================
+# Retrieval artifacts
+# These must be included for deployment.
+# Git LFS tracks the actual files.
+# ============================================================
+
+!index_v1/
+!index/
+!cleaned/
 
 # --- Raw dataset (not redistributable; each member downloads from NCTB/Mendeley) ---
 NCTB-SchoolText*/
@@ -20,7 +26,7 @@ env/
 # --- Model / HF cache (can be many GB) ---
 .cache/
 *.safetensors
-*.bin
+!*.bin
 
 # --- OS / editor cruft ---
 .DS_Store
