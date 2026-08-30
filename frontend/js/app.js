@@ -181,8 +181,10 @@ const MODE_META = {
 
 };
 
-
-init();
+// init();
+document.addEventListener("DOMContentLoaded", () => {
+    init(); 
+});
 
 
 async function init() {
@@ -257,7 +259,7 @@ function requiresGroup(
 function bindSelectors() {
 
 
-  els.classSelect.addEventListener(
+  els.classSelect?.addEventListener(
     "change",
     async (
       e
@@ -423,7 +425,7 @@ function bindSelectors() {
   );
 
 
-  els.groupSelect.addEventListener(
+  els.groupSelect?.addEventListener(
     "change",
     async (
       e
@@ -502,7 +504,7 @@ function bindSelectors() {
   );
 
 
-  els.subjectSelect.addEventListener(
+  els.subjectSelect?.addEventListener(
     "change",
     async (
       e
@@ -603,7 +605,7 @@ function bindSelectors() {
   );
 
 
-  els.chapterSelect.addEventListener(
+  els.chapterSelect?.addEventListener(
     "change",
     (
       e
