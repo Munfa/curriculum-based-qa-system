@@ -810,6 +810,18 @@ function bindModeTabs() {
 
 }
 
+function setMode(mode) {
+  state.mode = mode;
+  state.activeQuestion = null;
+  
+  // Update tab ARIA states
+  els.modeTabs.forEach((tab) => {
+    tab.setAttribute("aria-pressed", String(tab.dataset.mode === mode));
+  });
+  
+  renderMain();
+}
+
 
 function fillSelect(
   selectEl,
@@ -1204,7 +1216,7 @@ function emptyStateHtml() {
       <div class="feature-grid">
 
 
-        <div class="feature-card">
+        <div class="feature-card" onclick="setMode('qa')">
 
           <div class="feature-icon">
 
@@ -1251,7 +1263,7 @@ function emptyStateHtml() {
         </div>
 
 
-        <div class="feature-card">
+        <div class="feature-card" onclick="setMode('mcq')">
 
           <div class="feature-icon">
 
@@ -1292,7 +1304,7 @@ function emptyStateHtml() {
         </div>
 
 
-        <div class="feature-card">
+        <div class="feature-card" onclick="setMode('cq')">
 
           <div class="feature-icon">
 
