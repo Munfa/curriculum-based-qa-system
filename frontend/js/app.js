@@ -810,18 +810,22 @@ function bindModeTabs() {
 
 }
 
-function setMode(mode) {
-  state.mode = mode;
-  state.activeQuestion = null;
-  
-  // Update tab ARIA states
-  els.modeTabs.forEach((tab) => {
-    tab.setAttribute("aria-pressed", String(tab.dataset.mode === mode));
-  });
-  
+function activateMode(mode) {
+  const tab = document.querySelector(`.mode-tab[data-mode="${mode}"]`);
+  if (tab) 
+    tab.click();
   renderMain();
 }
 
+function goHome() {
+  state.mode = null;
+  state.activeQuestion = null;
+  els.modeTabs.forEach((tab) => {
+    tab.setAttribute("aria-pressed", "false");
+    tab.classList.remove("is-active");   // harmless if your CSS doesn't use this
+  });
+  renderMain();
+}
 
 function fillSelect(
   selectEl,
@@ -1016,6 +1020,10 @@ function renderMain() {
   els.main.innerHTML = `
 
     <div class="page-header">
+
+      <button class="btn" onclick="goHome()" style="margin-bottom: 12px; font-size: 0.9em;">
+        ← Back to Home
+      </button>
 
       <span class="page-eyebrow">
         ${meta.eyebrow}
@@ -1216,7 +1224,7 @@ function emptyStateHtml() {
       <div class="feature-grid">
 
 
-        <div class="feature-card" onclick="setMode('qa')">
+        <div class="feature-card" onclick="activateMode('qa')">
 
           <div class="feature-icon">
 
@@ -1263,7 +1271,7 @@ function emptyStateHtml() {
         </div>
 
 
-        <div class="feature-card" onclick="setMode('mcq')">
+        <div class="feature-card" onclick="activateMode('mcq')">
 
           <div class="feature-icon">
 
@@ -1304,7 +1312,7 @@ function emptyStateHtml() {
         </div>
 
 
-        <div class="feature-card" onclick="setMode('cq')">
+        <div class="feature-card" onclick="activateMode('cq')">
 
           <div class="feature-icon">
 

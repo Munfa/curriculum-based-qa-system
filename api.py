@@ -1,6 +1,6 @@
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 
 from retrieval.retrieval import list_classes, list_subjects, list_chapters
 from generation_grading.build_QA import answer_question
@@ -78,12 +78,21 @@ def get_chapters(
             else class_
         )
 
-        return {
-            "chapters":
-                list_chapters(
-                    class_value,
-                    subject
+        raw_chapters =list_chapters(
+                        class_value,
+                        subject
+                    )
+        chapters = []
+        for ch in raw_chapters:
+            if isinstance(ch, dict) and "chapter_no" in ch and "chapter_title" in ch:
+                chapters.append(
+                    f"Chapter-{ch['chapter_no']}: {ch['chapter_title']}"
                 )
+            else:
+                chapters.append(str(ch))
+
+        return {
+            "chapters": chapters
         }
 
     except Exception as e:
@@ -91,13 +100,21 @@ def get_chapters(
             status_code=500,
             detail=str(e)
         )
+    
+def _parse_chapter(chapter_val):
+    if isinstance(chapter_val, str) and chapter_val.startswith("Chapter-"):
+        try:
+            return int(chapter_val.split(":")[0].replace("Chapter-", ""))
+        except ValueError:
+            pass
+    return chapter_val
 
 # ============================================================
 # QA
 # ============================================================
 
 class QARequest(BaseModel):
-    class_: int | str
+    class_: int | str = Field(..., alias="class")
     # group: str | None = None
     subject: str
     chapter: int | str | None = None
@@ -110,7 +127,7 @@ def qa(request: QARequest):
         return answer_question(
             class_number=request.class_,
             subject=request.subject,
-            chapter=request.chapter,
+            chapter=_parse_chapter(request.chapter),
             question=request.question
         )
 
@@ -125,7 +142,7 @@ def qa(request: QARequest):
 # ============================================================
 
 class MCQGenerateRequest(BaseModel):
-    class_: int | str
+    class_: int | str = Field(..., alias="class")
     # group: str | None = None
     subject: str
     chapter: int | str
@@ -139,7 +156,7 @@ def mcq_generate(request: MCQGenerateRequest):
         return generate_mcq(
             class_number=request.class_,
             subject=request.subject,
-            chapter=request.chapter,
+            chapter=_parse_chapter(request.chapter),
             difficulty=request.difficulty
         )
 
@@ -175,7 +192,7 @@ def mcq_grade(request: MCQGradeRequest):
 # ============================================================
 
 class CQGenerateRequest(BaseModel):
-    class_: int | str
+    class_: int | str = Field(..., alias="class")
     # group: str | None = None
     subject: str
     chapter: int | str
@@ -191,7 +208,7 @@ def cq_generate(
         return generate_cq(
             class_number=request.class_,
             subject=request.subject,
-            chapter=request.chapter,
+            chapter=_parse_chapter(request.chapter),
             difficulty=request.difficulty
         )
 
