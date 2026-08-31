@@ -98,7 +98,7 @@ def get_chapters(
 
 class QARequest(BaseModel):
     class_: int | str
-    group: str | None = None
+    # group: str | None = None
     subject: str
     chapter: int | str | None = None
     question: str
