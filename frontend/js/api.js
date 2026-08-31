@@ -63,30 +63,30 @@ const Api = {
   },
 
 
-  getGroups(
-    cls
-  ) {
+  // getGroups(
+  //   cls
+  // ) {
 
-    return CONFIG.USE_MOCK
+  //   return CONFIG.USE_MOCK
 
-      ? MockApi.getGroups(
-          cls
-        )
+  //     ? MockApi.getGroups(
+  //         cls
+  //       )
 
-      : realFetch(
-          `/metadata/groups?class=${
-            encodeURIComponent(
-              cls
-            )
-          }`
-        );
+  //     : realFetch(
+  //         `/metadata/groups?class=${
+  //           encodeURIComponent(
+  //             cls
+  //           )
+  //         }`
+  //       );
 
-  },
+  // },
 
 
   getSubjects(
     cls,
-    group = null
+    // group = null
   ) {
 
     const params =
@@ -99,21 +99,21 @@ const Api = {
     );
 
 
-    if (group) {
+    // if (group) {
 
-      params.set(
-        "group",
-        group
-      );
+    //   params.set(
+    //     "group",
+    //     group
+    //   );
 
-    }
+    // }
 
 
     return CONFIG.USE_MOCK
 
       ? MockApi.getSubjects(
           cls,
-          group
+          // group
         )
 
       : realFetch(
@@ -125,7 +125,7 @@ const Api = {
 
   getChapters(
     cls,
-    group,
+    // group,
     subject
   ) {
 
@@ -145,21 +145,21 @@ const Api = {
     );
 
 
-    if (group) {
+    // if (group) {
 
-      params.set(
-        "group",
-        group
-      );
+    //   params.set(
+    //     "group",
+    //     group
+    //   );
 
-    }
+    // }
 
 
     return CONFIG.USE_MOCK
 
       ? MockApi.getChapters(
           cls,
-          group,
+          // group,
           subject
         )
 

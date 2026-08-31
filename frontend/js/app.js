@@ -3,8 +3,8 @@ const state = {
   classes:
     [],
 
-  groups:
-    [],
+  // groups:
+  //   [],
 
   subjects:
     [],
@@ -16,8 +16,8 @@ const state = {
   selectedClass:
     null,
 
-  selectedGroup:
-    null,
+  // selectedGroup:
+  //   null,
 
   selectedSubject:
     null,
@@ -48,22 +48,22 @@ const els = {
     ),
 
 
-  groupSection:
-    document.getElementById(
-      "group-section"
-    ),
+  // groupSection:
+  //   document.getElementById(
+  //     "group-section"
+  //   ),
 
 
-  groupSelect:
-    document.getElementById(
-      "group-select"
-    ),
+  // groupSelect:
+  //   document.getElementById(
+  //     "group-select"
+  //   ),
 
 
-  groupProgress:
-    document.getElementById(
-      "group-progress"
-    ),
+  // groupProgress:
+  //   document.getElementById(
+  //     "group-progress"
+  //   ),
 
 
   subjectSelect:
@@ -237,23 +237,23 @@ async function init() {
 }
 
 
-function requiresGroup(
-  cls
-) {
+// function requiresGroup(
+//   cls
+// ) {
 
-  return (
+//   return (
 
-    cls ===
-      "Class 9"
+//     cls ===
+//       "Class 9"
 
-    ||
+//     ||
 
-    cls ===
-      "Class 10"
+//     cls ===
+//       "Class 10"
 
-  );
+//   );
 
-}
+// }
 
 
 function bindSelectors() {
@@ -272,8 +272,8 @@ function bindSelectors() {
         null;
 
 
-      state.selectedGroup =
-        null;
+      // state.selectedGroup =
+      //   null;
 
 
       state.selectedSubject =
@@ -284,8 +284,8 @@ function bindSelectors() {
         null;
 
 
-      state.groups =
-        [];
+      // state.groups =
+      //   [];
 
 
       state.subjects =
@@ -296,10 +296,10 @@ function bindSelectors() {
         [];
 
 
-      resetSelect(
-        els.groupSelect,
-        "Select a group"
-      );
+      // resetSelect(
+      //   els.groupSelect,
+      //   "Select a group"
+      // );
 
 
       resetSelect(
@@ -314,28 +314,28 @@ function bindSelectors() {
       );
 
 
-      const needsGroup =
-        requiresGroup(
-          state.selectedClass
-        );
+      // const needsGroup =
+      //   requiresGroup(
+      //     state.selectedClass
+      //   );
 
 
-      els
-        .groupSection
-        .classList
-        .toggle(
-          "hidden",
-          !needsGroup
-        );
+      // els
+      //   .groupSection
+      //   .classList
+      //   .toggle(
+      //     "hidden",
+      //     !needsGroup
+      //   );
 
 
-      els
-        .groupProgress
-        .classList
-        .toggle(
-          "hidden",
-          !needsGroup
-        );
+      // els
+      //   .groupProgress
+      //   .classList
+      //   .toggle(
+      //     "hidden",
+      //     !needsGroup
+      //   );
 
 
       updateProgressDots();
@@ -355,37 +355,37 @@ function bindSelectors() {
       try {
 
 
-        if (
-          needsGroup
-        ) {
+        // if (
+        //   needsGroup
+        // ) {
 
 
-          const {
-            groups
-          } =
-            await Api.getGroups(
-              state.selectedClass
-            );
+        //   const {
+        //     groups
+        //   } =
+        //     await Api.getGroups(
+        //       state.selectedClass
+        //     );
 
 
-          state.groups =
-            groups;
+        //   state.groups =
+        //     groups;
 
 
-          fillSelect(
-            els.groupSelect,
-            groups,
-            "Select a group"
-          );
+        //   fillSelect(
+        //     els.groupSelect,
+        //     groups,
+        //     "Select a group"
+        //   );
 
 
-          els.groupSelect.disabled =
-            false;
+        //   els.groupSelect.disabled =
+        //     false;
 
 
-          return;
+        //   return;
 
-        }
+        // }
 
 
         await loadSubjects();
@@ -399,109 +399,114 @@ function bindSelectors() {
         console.error(
           err
         );
-
-
-        if (
-          needsGroup
-        ) {
-
-          resetSelect(
-            els.groupSelect,
-            "Could not load groups"
-          );
-
-        } else {
-
-          resetSelect(
-            els.subjectSelect,
-            "Could not load subjects"
-          );
-
-        }
-
-      }
-
-    }
-  );
-
-
-  els.groupSelect?.addEventListener(
-    "change",
-    async (
-      e
-    ) => {
-
-
-      state.selectedGroup =
-        e.target.value
-        ||
-        null;
-
-
-      state.selectedSubject =
-        null;
-
-
-      state.selectedChapter =
-        null;
-
-
-      state.subjects =
-        [];
-
-
-      state.chapters =
-        [];
-
-
-      resetSelect(
-        els.subjectSelect,
-        "Select a subject"
-      );
-
-
-      resetSelect(
-        els.chapterSelect,
-        "Select a chapter"
-      );
-
-
-      updateProgressDots();
-
-      renderMain();
-
-
-      if (
-        !state.selectedGroup
-      ) {
-
-        return;
-
-      }
-
-
-      try {
-
-        await loadSubjects();
-
-      } catch (
-        err
-      ) {
-
-        console.error(
-          err
-        );
-
 
         resetSelect(
-          els.subjectSelect,
-          "Could not load subjects"
+            els.subjectSelect,
+            "Could not load subjects"
         );
+
+
+        // if (
+        //   needsGroup
+        // ) {
+
+        //   resetSelect(
+        //     els.groupSelect,
+        //     "Could not load groups"
+        //   );
+
+        // } else {
+
+        //   resetSelect(
+        //     els.subjectSelect,
+        //     "Could not load subjects"
+        //   );
+
+        // }
 
       }
 
     }
   );
+
+
+  // els.groupSelect?.addEventListener(
+  //   "change",
+  //   async (
+  //     e
+  //   ) => {
+
+
+  //     state.selectedGroup =
+  //       e.target.value
+  //       ||
+  //       null;
+
+
+  //     state.selectedSubject =
+  //       null;
+
+
+  //     state.selectedChapter =
+  //       null;
+
+
+  //     state.subjects =
+  //       [];
+
+
+  //     state.chapters =
+  //       [];
+
+
+  //     resetSelect(
+  //       els.subjectSelect,
+  //       "Select a subject"
+  //     );
+
+
+  //     resetSelect(
+  //       els.chapterSelect,
+  //       "Select a chapter"
+  //     );
+
+
+  //     updateProgressDots();
+
+  //     renderMain();
+
+
+  //     if (
+  //       !state.selectedGroup
+  //     ) {
+
+  //       return;
+
+  //     }
+
+
+  //     try {
+
+  //       await loadSubjects();
+
+  //     } catch (
+  //       err
+  //     ) {
+
+  //       console.error(
+  //         err
+  //       );
+
+
+  //       resetSelect(
+  //         els.subjectSelect,
+  //         "Could not load subjects"
+  //       );
+
+  //     }
+
+  //   }
+  // );
 
 
   els.subjectSelect?.addEventListener(
@@ -555,7 +560,7 @@ function bindSelectors() {
 
             state.selectedClass,
 
-            state.selectedGroup,
+            // state.selectedGroup,
 
             state.selectedSubject
 
@@ -641,7 +646,7 @@ async function loadSubjects() {
 
       state.selectedClass,
 
-      state.selectedGroup
+      // state.selectedGroup
 
     );
 
@@ -675,26 +680,26 @@ function updateProgressDots() {
         dot.dataset.key;
 
 
-      if (
+      // if (
 
-        key ===
-          "group"
+      //   key ===
+      //     "group"
 
-        &&
+      //   &&
 
-        !requiresGroup(
-          state.selectedClass
-        )
+      //   !requiresGroup(
+      //     state.selectedClass
+      //   )
 
-      ) {
+      // ) {
 
-        dot.classList.remove(
-          "is-done"
-        );
+      //   dot.classList.remove(
+      //     "is-done"
+      //   );
 
-        return;
+      //   return;
 
-      }
+      // }
 
 
       const done =
@@ -710,16 +715,16 @@ function updateProgressDots() {
 
         ||
 
-        (
-          key ===
-            "group"
+        // (
+        //   key ===
+        //     "group"
 
-          &&
+        //   &&
 
-          !!state.selectedGroup
-        )
+        //   !!state.selectedGroup
+        // )
 
-        ||
+        // ||
 
         (
           key ===
@@ -920,21 +925,21 @@ function selectionsReady() {
   }
 
 
-  if (
+  // if (
 
-    requiresGroup(
-      state.selectedClass
-    )
+  //   requiresGroup(
+  //     state.selectedClass
+  //   )
 
-    &&
+  //   &&
 
-    !state.selectedGroup
+  //   !state.selectedGroup
 
-  ) {
+  // ) {
 
-    return false;
+  //   return false;
 
-  }
+  // }
 
 
   return true;
@@ -973,17 +978,17 @@ function renderMain() {
     state.selectedClass,
 
 
-    ...(
-      requiresGroup(
-        state.selectedClass
-      )
+    // ...(
+    //   requiresGroup(
+    //     state.selectedClass
+    //   )
 
-        ? [
-            state.selectedGroup
-          ]
+    //     ? [
+    //         state.selectedGroup
+    //       ]
 
-        : []
-    ),
+    //     : []
+    // ),
 
 
     state.selectedSubject,
@@ -1442,8 +1447,8 @@ function renderQa() {
               class:
                 state.selectedClass,
 
-              group:
-                state.selectedGroup,
+              // group:
+              //   state.selectedGroup,
 
               subject:
                 state.selectedSubject,
@@ -1621,8 +1626,8 @@ async function generateMcqQuestion() {
         class:
           state.selectedClass,
 
-        group:
-          state.selectedGroup,
+        // group:
+        //   state.selectedGroup,
 
         subject:
           state.selectedSubject,
@@ -2014,8 +2019,8 @@ async function generateCqQuestion() {
         class:
           state.selectedClass,
 
-        group:
-          state.selectedGroup,
+        // group:
+        //   state.selectedGroup,
 
         subject:
           state.selectedSubject,

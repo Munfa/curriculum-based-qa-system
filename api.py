@@ -15,7 +15,7 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -31,18 +31,18 @@ def get_classes():
         "classes": list_classes()
     }
 
-@app.get("/metadata/groups")
-def get_groups(class_: str = Query(..., alias="class")):
+# @app.get("/metadata/groups")
+# def get_groups(class_: str = Query(..., alias="class")):
 
-    return {
-        "groups": []
-    }
+#     return {
+#         "groups": []
+#     }
 
 
 @app.get("/metadata/subjects")
 def get_subjects(
     class_: str = Query(..., alias="class"),
-    group: str | None = None
+    # group: str | None = None
 ):
 
     try:
@@ -68,7 +68,7 @@ def get_subjects(
 def get_chapters(
     class_: str = Query(..., alias="class"),
     subject: str = Query(...),
-    group: str | None = None
+    # group: str | None = None
 ):
 
     try:
@@ -126,7 +126,7 @@ def qa(request: QARequest):
 
 class MCQGenerateRequest(BaseModel):
     class_: int | str
-    group: str | None = None
+    # group: str | None = None
     subject: str
     chapter: int | str
     difficulty: str
@@ -176,7 +176,7 @@ def mcq_grade(request: MCQGradeRequest):
 
 class CQGenerateRequest(BaseModel):
     class_: int | str
-    group: str | None = None
+    # group: str | None = None
     subject: str
     chapter: int | str
     difficulty: str
