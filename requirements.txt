@@ -4,4 +4,6 @@ fastapi
 uvicorn
 pydantic
 python-dotenv
+requests
+time
 sentence-transformers

@@ -35,6 +35,8 @@ Usage:
 import json
 import os
 import functools
+import requests  
+import time  
 
 # Path to the index directory produced by build_index.py.
 
@@ -44,6 +46,9 @@ COLLECTION_NAME = "nctb_schooltext"
 # Path to the cleaned chunks the index was built from. Metadata lookups
 
 CHUNKS_FILE = os.environ.get("BANGLA_QA_CHUNKS", "cleaned/chunks_v1.jsonl")
+
+HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
+HF_API_URL = "https://api-inference.huggingface.co/models/intfloat/multilingual-e5-large"
 
 
 @functools.lru_cache(maxsize=1)
@@ -56,26 +61,56 @@ def _load():
     with open(os.path.join(INDEX_DIR, "config.json")) as f:
         cfg = json.load(f)
 
-    from sentence_transformers import SentenceTransformer
-    import torch
-    device = "mps" if torch.backends.mps.is_available() else "cpu"
-    model = SentenceTransformer(cfg["model"], device=device)
+    # from sentence_transformers import SentenceTransformer
+    # import torch
+    # device = "mps" if torch.backends.mps.is_available() else "cpu"
+    # model = SentenceTransformer(cfg["model"], device=device)
     model_name = cfg["model"]
 
     import chromadb
     client = chromadb.PersistentClient(path=os.path.join(INDEX_DIR, "chroma_db"))
     collection = client.get_collection(COLLECTION_NAME)
 
-    return model, model_name, collection
+    # return model, model_name, collection
+    return model_name, collection
 
+
+# def _embed_query(text):
+#     model, model_name, _ = _load()
+#     # e5 models want a "query: " prefix for best retrieval quality
+#     if "e5" in model_name.lower():
+#         text = "query: " + text
+#     vec = model.encode([text], normalize_embeddings=True)
+#     return vec[0].tolist()
 
 def _embed_query(text):
-    model, model_name, _ = _load()
-    # e5 models want a "query: " prefix for best retrieval quality
+    model_name, _ = _load()
+    
+    # e5 models want "query: " prefix
     if "e5" in model_name.lower():
         text = "query: " + text
-    vec = model.encode([text], normalize_embeddings=True)
-    return vec[0].tolist()
+
+    if not HF_API_TOKEN:
+        raise RuntimeError("HF_API_TOKEN environment variable is not set.")
+
+    headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
+    payload = {"inputs": text}
+
+    # Free HF API sometimes needs a warm-up; retry once
+    for attempt in range(2):
+        response = requests.post(HF_API_URL, headers=headers, json=payload, timeout=30)
+        
+        if response.status_code == 200:
+            # HF returns [[vec]] for single input
+            return response.json()[0]
+        
+        if response.status_code == 503 and attempt == 0:
+            time.sleep(3)  # wait for model warm-up
+            continue
+            
+        response.raise_for_status()
+
+    raise RuntimeError("HF Inference API failed after retry.")
 
 
 def _build_where(class_, subject, chapter):
@@ -108,7 +143,8 @@ def retrieve_passage(class_, subject, chapter, query, top_k=5):
     Returns a list of dicts (see module docstring for keys). Empty list if
     nothing matches the filters.
     """
-    _, _, collection = _load()
+    # _, _, collection = _load()
+    _, collection = _load()
     where = _build_where(class_, subject, chapter)
     q_vec = _embed_query(query)
 
