@@ -52,7 +52,7 @@ def build_mcq_prompt(class_number, subject, chapter, difficulty, passages, examp
     )
 
     prompt = f"""
-        Generate one multiple-choice question for:
+        Generate Ten unique multiple-choice question for:
 
         Class: {class_number}
         Subject: {subject}
@@ -64,19 +64,18 @@ def build_mcq_prompt(class_number, subject, chapter, difficulty, passages, examp
         The examples are only for learning the exam style.
         Do not copy them.
 
+        TEXTBOOK PASSAGES:
+        {context}
+        
+        EXAMPLES:
+        {example_text}
+
         Requirements:
         - exactly 4 options
         - exactly 1 correct option
         - appropriate for the requested difficulty
         - answer must be supported by the textbook
 
-        TEXTBOOK PASSAGES:
-
-        {context}
-
-        EXAMPLES:
-
-        {example_text}
     """
     return prompt
 

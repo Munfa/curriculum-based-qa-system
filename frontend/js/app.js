@@ -1764,22 +1764,10 @@ async function generateMcqQuestion() {
       );
 
 
-  } catch (
-    err
-  ) {
-
-
-    statusEl.innerHTML =
-      errorHtml(
-        "Could not generate a question."
-      );
-
-
-    console.error(
-      err
-    );
-
-
+  } catch (err) {
+    console.error(">>> FULL ERROR:", err);  // ADD THIS LINE
+    statusEl.innerHTML = errorHtml("Could not generate a question.");
+    console.error(err);
   } finally {
 
 

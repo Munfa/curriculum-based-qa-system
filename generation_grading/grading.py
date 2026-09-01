@@ -75,9 +75,14 @@ def grade_cq(question_id, student_answers):
             Evaluate whether the student's answer contains the
             important information required by the reference answer.
 
-            Return a score and concise feedback.
+            Return a score and concise feedback. The feedback should be in Bangla
 
-            Use a score from 1 to 4.
+            Use this logic to score each part and the score should be a whole integer 
+
+            For "ka": Use a score either 0 or 1 depending on the correct answer
+            For "kha": Use a score from 0 to 2  
+            For "ga": Use a score from 0 to 3
+            For "gha": Use a score from 0 to 4.
         """
 
         result = generate(prompt, CQ_GRADING_SCHEMA)
