@@ -1,6 +1,5 @@
-from .build_MCQ import mcq_ans_store
-from .build_CQ import cq_ans_store
 from .llm import generate
+from .stores import cq_answer_store, mcq_answer_store
 
 
 CQ_GRADING_SCHEMA = {
@@ -25,16 +24,17 @@ CQ_GRADING_SCHEMA = {
 
 def grade_mcq(question_id, selected_option):
 
-    if question_id not in mcq_ans_store:
+    if question_id not in mcq_answer_store:
         raise ValueError("Unknown question_id.")
 
-    correct_option = mcq_ans_store[question_id]["correct_option"]
+    correct_option = mcq_answer_store[question_id]["correct_option"]
 
     correct = (selected_option == correct_option)
 
     return {
         "score": 1 if correct else 0,
         "correct": correct,
+        "correct_option": correct_option,
         "feedback":
             "Correct answer."
             if correct
@@ -47,10 +47,10 @@ def grade_mcq(question_id, selected_option):
 
 def grade_cq(question_id, student_answers):
 
-    if question_id not in cq_ans_store:
+    if question_id not in cq_answer_store:
         raise ValueError("Unknown question_id.")
 
-    reference_answers = cq_ans_store[question_id]["reference_answers"]
+    reference_answers = cq_answer_store[question_id]["reference_answers"]
 
     results = {}
     total = 0

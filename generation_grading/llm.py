@@ -1,28 +1,21 @@
-import os
 import json
-from dotenv import load_dotenv
-from google import genai
-from google.genai import types
 
-load_dotenv()
-
-MODEL = "gemini-2.5-flash-lite"
-API_KEY = os.getenv("GEMINI_API_KEY") or os.getenv("gemini_api_key")
-
-if not API_KEY:
-    raise RuntimeError("GEMINI_API_KEY environment variable is not set.")
-
-client = genai.Client(api_key=API_KEY)
-
-# if not client:
-#     print("Error: API Key not found!")
-# else:
-#     print("API Key loaded successfully.")
+from backend.config import GEMINI_API_KEY, GEMINI_MODEL
 
 def generate(prompt: str, response_schema: dict) -> dict:
+    if not GEMINI_API_KEY:
+        raise RuntimeError(
+            "GEMINI_API_KEY environment variable is not set. "
+            "Add it to a .env file before using QA, MCQ, or CQ generation."
+        )
+
     try:
+        from google import genai
+        from google.genai import types
+
+        client = genai.Client(api_key=GEMINI_API_KEY)
         response = client.models.generate_content(
-            model=MODEL,
+            model=GEMINI_MODEL,
             contents=prompt,
             config=types.GenerateContentConfig(
                 response_mime_type="application/json",
@@ -32,6 +25,10 @@ def generate(prompt: str, response_schema: dict) -> dict:
 
         return json.loads(response.text)
     
-    except Exception as e:
-        print(f"LLM ERROR: {type(e).__name__}: {e}")
-        raise RuntimeError(f"LLM call failed: {e}")
+    except ImportError as exc:
+        raise RuntimeError(
+            "The google-genai package is not installed. "
+            "Run: python -m pip install -r requirements.txt"
+        ) from exc
+    except Exception as exc:
+        raise RuntimeError(f"LLM call failed: {exc}") from exc

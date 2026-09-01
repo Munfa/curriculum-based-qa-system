@@ -3,8 +3,10 @@ from retrieval.retrieval import retrieve
 from .build_QA import build_context
 from .get_patterns import get_cq_examples
 from .llm import generate
+from .stores import cq_answer_store
 
-cq_ans_store = {}
+# Backward-compatible alias.
+cq_ans_store = cq_answer_store
 
 
 CQ_SCHEMA = {

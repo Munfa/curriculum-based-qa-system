@@ -1,8 +1,8 @@
 import json
 import random
-from pathlib import Path
+from backend.config import QUESTION_PATTERN_DIR
 
-DATA_DIR = Path(__file__).resolve().parent.parent / "question_pattern"
+DATA_DIR = QUESTION_PATTERN_DIR
 
 # MCQ_FILE = DATA_DIR / "mcq_question_pattern.json"
 # CQ_FILE = DATA_DIR / "cq_question_pattern.json"

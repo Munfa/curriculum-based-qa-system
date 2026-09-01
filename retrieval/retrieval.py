@@ -33,17 +33,16 @@ Usage:
 """
 
 import json
-import os
 import functools
+
+from backend.config import CHUNKS_FILE, INDEX_DIR
 
 # Path to the index directory produced by build_index.py.
 
-INDEX_DIR = os.environ.get("BANGLA_QA_INDEX", "index_v1")
 COLLECTION_NAME = "nctb_schooltext"
 
 # Path to the cleaned chunks the index was built from. Metadata lookups
 
-CHUNKS_FILE = os.environ.get("BANGLA_QA_CHUNKS", "cleaned/chunks_v1.jsonl")
 
 
 @functools.lru_cache(maxsize=1)
@@ -53,7 +52,7 @@ def _load():
     First call is slow (loads the model); later calls are instant.
     Returns (embedder, collection).
     """
-    with open(os.path.join(INDEX_DIR, "config.json")) as f:
+    with open(INDEX_DIR / "config.json") as f:
         cfg = json.load(f)
 
     from sentence_transformers import SentenceTransformer
@@ -63,7 +62,7 @@ def _load():
     model_name = cfg["model"]
 
     import chromadb
-    client = chromadb.PersistentClient(path=os.path.join(INDEX_DIR, "chroma_db"))
+    client = chromadb.PersistentClient(path=str(INDEX_DIR / "chroma_db"))
     collection = client.get_collection(COLLECTION_NAME)
 
     return model, model_name, collection

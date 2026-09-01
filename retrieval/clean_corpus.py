@@ -123,6 +123,7 @@ def main():
             too_short = len(text.strip()) < args.min_len
             fragmented = looks_fragmented(text)
             review_recommended = looks_formula_garbled(text)
+            is_noisy = q < args.min_quality or too_short or fragmented
             
             rec_out = dict(rec)
             rec_out["quality_score"] = round(q, 3)

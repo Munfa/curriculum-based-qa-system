@@ -3,8 +3,10 @@ from retrieval.retrieval import retrieve
 from .build_QA import build_context
 from .get_patterns import get_mcq_examples
 from .llm import generate
+from .stores import mcq_answer_store
 
-mcq_ans_store = {}
+# Backward-compatible alias.
+mcq_ans_store = mcq_answer_store
 
 MCQ_SCHEMA = {
     "type": "OBJECT",

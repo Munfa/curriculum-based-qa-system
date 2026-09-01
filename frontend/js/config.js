@@ -21,7 +21,7 @@ const CONFIG = {
   USE_MOCK: false,
 
   BASE_URL:
-    "https://curriculum-nlp-api.onrender.com",
+    "http://127.0.0.1:8002",
 
   MOCK_LATENCY_MS:
     250,
