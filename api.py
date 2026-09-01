@@ -151,16 +151,25 @@ class MCQGenerateRequest(BaseModel):
 
 @app.post("/mcq/generate")
 def mcq_generate(request: MCQGenerateRequest):
-
+    print("1. MCQ endpoint received", flush=True)
     try:
-        return generate_mcq(
+        print("2. Calling generate_mcq", flush=True)
+        result = generate_mcq(
             class_number=request.class_,
             subject=request.subject,
             chapter=_parse_chapter(request.chapter),
             difficulty=request.difficulty
         )
+        print("3. generate_mcq finished", flush=True)
+
+        return result
 
     except Exception as e:
+        print(
+            f"MCQ ERROR: {type(e).__name__}: {e}",
+            flush=True
+        )
+
         raise HTTPException(
             status_code=500,
             detail=str(e)

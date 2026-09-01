@@ -84,6 +84,7 @@ def build_mcq_prompt(class_number, subject, chapter, difficulty, passages, examp
 # ============================================================
 
 def generate_mcq(class_number, subject, chapter, difficulty):
+    print("MCQ A: starting", flush=True)
 
     retrieval = retrieve(
         class_number,
@@ -92,12 +93,13 @@ def generate_mcq(class_number, subject, chapter, difficulty):
         f"{subject} chapter {chapter} {difficulty} MCQ",
         top_k=5
     )
-
+    print("MCQ B: retrieving passages", flush=True)
     passages = retrieval["passages"]
 
     if not passages:
         raise ValueError("No relevant textbook passages were retrieved.")
-
+    print("MCQ C: retrieval finished", flush=True)
+    print("MCQ D: loading examples", flush=True)
     examples = get_mcq_examples(
         difficulty,
         n=3
@@ -114,8 +116,9 @@ def generate_mcq(class_number, subject, chapter, difficulty):
         passages,
         examples
     )
-
+    print("MCQ E: calling Gemini", flush=True)
     result = generate( prompt, MCQ_SCHEMA)
+    print("MCQ F: Gemini finished", flush=True)
 
     if len(result["options"]) != 4:
         raise ValueError("Generated MCQ does not contain exactly 4 options.")
