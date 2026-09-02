@@ -37,6 +37,7 @@ import os
 import functools
 import requests  
 import time  
+from huggingface_hub import InferenceClient
 
 # Path to the index directory produced by build_index.py.
 
@@ -48,7 +49,16 @@ COLLECTION_NAME = "nctb_schooltext"
 CHUNKS_FILE = os.environ.get("BANGLA_QA_CHUNKS", "cleaned/chunks_v1.jsonl")
 
 HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
-HF_API_URL = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large"
+HF_MODEL = "intfloat/multilingual-e5-large"
+
+if not HF_API_TOKEN:
+    raise RuntimeError("HF_API_TOKEN environment variable is not set.")
+
+hf_client = InferenceClient(
+    provider="hf-inference",
+    api_key=HF_API_TOKEN,
+    timeout=30,
+)
 
 
 @functools.lru_cache(maxsize=1)
@@ -85,32 +95,17 @@ def _load():
 
 def _embed_query(text):
     model_name, _ = _load()
-    
-    # e5 models want "query: " prefix
+
+    # E5 models expect the query prefix
     if "e5" in model_name.lower():
         text = "query: " + text
 
-    if not HF_API_TOKEN:
-        raise RuntimeError("HF_API_TOKEN environment variable is not set.")
+    embedding = hf_client.feature_extraction(
+        text,
+        model=HF_MODEL,
+    )
 
-    headers = {"Authorization": f"Bearer {HF_API_TOKEN}"}
-    payload = {"inputs": text}
-
-    # Free HF API sometimes needs a warm-up; retry once
-    for attempt in range(2):
-        response = requests.post(HF_API_URL, headers=headers, json=payload, timeout=30)
-        
-        if response.status_code == 200:
-            # HF returns [[vec]] for single input
-            return response.json()[0]
-        
-        if response.status_code == 503 and attempt == 0:
-            time.sleep(3)  # wait for model warm-up
-            continue
-            
-        response.raise_for_status()
-
-    raise RuntimeError("HF Inference API failed after retry.")
+    return embedding.tolist()
 
 
 def _build_where(class_, subject, chapter):
