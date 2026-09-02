@@ -48,7 +48,7 @@ COLLECTION_NAME = "nctb_schooltext"
 CHUNKS_FILE = os.environ.get("BANGLA_QA_CHUNKS", "cleaned/chunks_v1.jsonl")
 
 HF_API_TOKEN = os.environ.get("HF_API_TOKEN")
-HF_API_URL = "https://api-inference.huggingface.co/models/intfloat/multilingual-e5-large"
+HF_API_URL = "https://router.huggingface.co/hf-inference/models/intfloat/multilingual-e5-large"
 
 
 @functools.lru_cache(maxsize=1)
