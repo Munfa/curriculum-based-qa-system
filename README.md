@@ -32,13 +32,13 @@ https://github.com/Munfa/curriculum-based-qa-system
 
 # 📸 Application Screenshots
 
-> Add the screenshots to `docs/images/` using the filenames shown below.
 
 ## 1. Home / Curriculum Selection
 
 The student begins by selecting the appropriate class, subject, chapter, and study mode.
+### Home Page
 
-![Curriculum Selection](docs/images/home.png)
+![Home Page](screenshots/Homepage.png)
 
 ---
 
@@ -46,7 +46,9 @@ The student begins by selecting the appropriate class, subject, chapter, and stu
 
 Students can ask questions related to the selected curriculum content.
 
-![Question Answering Input](docs/images/qa-input.png)
+### Question Answering
+
+![Question Answering](screenshots/QuestionAnswering.png)
 
 ### Example Input
 
@@ -54,18 +56,15 @@ Students can ask questions related to the selected curriculum content.
 Class: Class 6
 Subject: Science
 Chapter: Chapter 5
-Question: সালোকসংশ্লেষণ কী?
+Question: সালোকসংশ্লেষণ কীভাবে হয়??
 ```
 
 ### Example Output
 
 ```text
-সালোকসংশ্লেষণ হলো এমন একটি প্রক্রিয়া যার মাধ্যমে
-সবুজ উদ্ভিদ সূর্যের আলোর উপস্থিতিতে কার্বন ডাই-অক্সাইড
-ও পানি ব্যবহার করে খাদ্য তৈরি করে এবং অক্সিজেন নির্গত করে।
+সালোকসংশ্লেষণের সময় বায়ুমণ্ডলের কার্বন ডাইঅক্সাইড পত্ররন্ধের ভিতর দিয়ে পাতায় প্রবেশ করে। এরপর সূর্যালোকের উপস্থিতিতে ক্লোরোফিলের সহায়তায় পানি ও কার্বন ডাই অক্সাইডের বিক্রিয়া ঘটে এবং গুকোজ ও অক্সিজেন উৎপন্ন হয়।
 ```
 
-![Question Answering Output](docs/images/qa-output.png)
 
 ---
 
@@ -73,7 +72,6 @@ Question: সালোকসংশ্লেষণ কী?
 
 The system can generate curriculum-specific multiple-choice questions with different difficulty levels.
 
-![MCQ Input](docs/images/mcq-input.png)
 
 Supported difficulty levels:
 
@@ -95,7 +93,9 @@ D. Option D
 
 Students can select an option and receive automated feedback.
 
-![MCQ Output](docs/images/mcq-output.png)
+### MCQ Practice
+
+![MCQ Practice](screenshots/MCQ.png)
 
 ---
 
@@ -103,7 +103,10 @@ Students can select an option and receive automated feedback.
 
 The system also supports Bangla Creative Questions (CQ).
 
-![CQ Input](docs/images/cq-input.png)
+### CQ Practice
+
+![CQ Practice](screenshots/CQ1.png)
+![CQ Practice](screenshots/CQ2.png)
 
 A CQ contains four components:
 
@@ -116,7 +119,12 @@ A CQ contains four components:
 
 Students submit answers for the individual components and receive scores and feedback.
 
-![CQ Output](docs/images/cq-output.png)
+### CQ Ourput
+
+![CQ Practice](screenshots/CQ_Answers.png)
+![CQ Practice](screenshots/CQ_grading.png)
+
+
 
 ---
 
